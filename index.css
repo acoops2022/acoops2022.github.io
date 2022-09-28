@@ -16,8 +16,8 @@ body{
 
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h3, p{
-    color:rgb(17, 17, 17);
-    font-family: 'Roboto', sans-serif;
+    color:RGB: (13, 118, 128);
+    font-family: 'Roboto', Serif;
     text-align: center;
 }
     
