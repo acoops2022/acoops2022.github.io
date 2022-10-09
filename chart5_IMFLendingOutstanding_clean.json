@@ -1,0 +1,31 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "IMF lending outstanding ",
+    "subtitle": "Billions of $ loaned out between 1984 and 2020 adjusted for inflation (index baseline 1984)",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/acoops2022/acoops2022.github.io/main/data_IMF_creditOutstanding_clean.csv"
+  },
+  "height": 300,
+  "width": 300,
+  "mark": {"type": "bar", "color": "#000000"},
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "axis": {"title": null, "grid": false, "ticks": false, "labelAngle": 45}
+    },
+    "y": {
+      "field": "totals_billion_adjusted ",
+      "type": "quantitative",
+      "title": "",
+      "axis": {"grid": false}
+    }
+  },
+  "config": {}
+}
