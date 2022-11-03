@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "UK Government Party Polls ",
+    "subtitle": "Perecentage of votes for UK political parties as of 21-10-2022 ",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {"Party": "Conservative", "Votes": "19", "v": "#377eb8"},
+      {"Party": "Labour", "Votes": "56", "v": "#e41a1c"},
+      {"Party": "Lib Dem", "Votes": "10", "v": "#ffff33"},
+      {"Party": "SNP", "Votes": "4", "v": "#353535"},
+      {"Party": "Green", "Votes": "4", "v": "#4daf4a"},
+      {"Party": "Reform", "Votes": "5", "v": "#17becf"},
+      {"Party": "Others", "Votes": "2", "v": "#999999"}
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Party", "type": "nominal", "axis": {"labelAngle": -50}},
+    "y": {"field": "Votes", "type": "quantitative"},
+    "color": {"field": "v", "type": "nominal", "scale": null}
+  },
+  "config": {}
+}
