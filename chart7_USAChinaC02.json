@@ -1,0 +1,336 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {
+        "Year": "01/01/1970",
+        "USA_GigTonCo2": 4.86,
+        "China_GigTonCo2": 0.807952627,
+        "World_GigTonCo2": 14.89756709
+      },
+      {
+        "Year": "01/01/1971",
+        "USA_GigTonCo2": 4.92,
+        "China_GigTonCo2": 0.9092097,
+        "World_GigTonCo2": 15.49826668
+      },
+      {
+        "Year": "01/01/1972",
+        "USA_GigTonCo2": 5.16,
+        "China_GigTonCo2": 0.968645596,
+        "World_GigTonCo2": 16.22115227
+      },
+      {
+        "Year": "01/01/1973",
+        "USA_GigTonCo2": 5.4,
+        "China_GigTonCo2": 1.008292576,
+        "World_GigTonCo2": 17.0787921
+      },
+      {
+        "Year": "01/01/1974",
+        "USA_GigTonCo2": 5.25,
+        "China_GigTonCo2": 1.028099867,
+        "World_GigTonCo2": 17.00959441
+      },
+      {
+        "Year": "01/01/1975",
+        "USA_GigTonCo2": 5.13,
+        "China_GigTonCo2": 1.183214956,
+        "World_GigTonCo2": 17.04649722
+      },
+      {
+        "Year": "01/01/1976",
+        "USA_GigTonCo2": 5.43,
+        "China_GigTonCo2": 1.226421277,
+        "World_GigTonCo2": 17.98397285
+      },
+      {
+        "Year": "01/01/1977",
+        "USA_GigTonCo2": 5.59,
+        "China_GigTonCo2": 1.340831115,
+        "World_GigTonCo2": 18.49453082
+      },
+      {
+        "Year": "01/01/1978",
+        "USA_GigTonCo2": 5.68,
+        "China_GigTonCo2": 1.492777845,
+        "World_GigTonCo2": 19.06776718
+      },
+      {
+        "Year": "01/01/1979",
+        "USA_GigTonCo2": 5.79,
+        "China_GigTonCo2": 1.525661148,
+        "World_GigTonCo2": 19.61001773
+      },
+      {
+        "Year": "01/01/1980",
+        "USA_GigTonCo2": 5.62,
+        "China_GigTonCo2": 1.494495884,
+        "World_GigTonCo2": 19.49261352
+      },
+      {
+        "Year": "01/01/1981",
+        "USA_GigTonCo2": 5.5,
+        "China_GigTonCo2": 1.476487854,
+        "World_GigTonCo2": 19.02691018
+      },
+      {
+        "Year": "01/01/1982",
+        "USA_GigTonCo2": 5.26,
+        "China_GigTonCo2": 1.606585013,
+        "World_GigTonCo2": 18.87576028
+      },
+      {
+        "Year": "01/01/1983",
+        "USA_GigTonCo2": 5.2,
+        "China_GigTonCo2": 1.694216811,
+        "World_GigTonCo2": 18.99803156
+      },
+      {
+        "Year": "01/01/1984",
+        "USA_GigTonCo2": 5.46,
+        "China_GigTonCo2": 1.844828012,
+        "World_GigTonCo2": 19.65671687
+      },
+      {
+        "Year": "01/01/1985",
+        "USA_GigTonCo2": 5.47,
+        "China_GigTonCo2": 1.998082904,
+        "World_GigTonCo2": 20.31748352
+      },
+      {
+        "Year": "01/01/1986",
+        "USA_GigTonCo2": 5.45,
+        "China_GigTonCo2": 2.104213354,
+        "World_GigTonCo2": 20.61962366
+      },
+      {
+        "Year": "01/01/1987",
+        "USA_GigTonCo2": 5.66,
+        "China_GigTonCo2": 2.257738539,
+        "World_GigTonCo2": 21.26619453
+      },
+      {
+        "Year": "01/01/1988",
+        "USA_GigTonCo2": 5.91,
+        "China_GigTonCo2": 2.425893553,
+        "World_GigTonCo2": 22.10139949
+      },
+      {
+        "Year": "01/01/1989",
+        "USA_GigTonCo2": 6.02,
+        "China_GigTonCo2": 2.463654367,
+        "World_GigTonCo2": 22.40683252
+      },
+      {
+        "Year": "01/01/1990",
+        "USA_GigTonCo2": 5.98,
+        "China_GigTonCo2": 2.48485482,
+        "World_GigTonCo2": 22.74957436
+      },
+      {
+        "Year": "01/01/1991",
+        "USA_GigTonCo2": 5.93,
+        "China_GigTonCo2": 2.606096182,
+        "World_GigTonCo2": 23.23810215
+      },
+      {
+        "Year": "01/01/1992",
+        "USA_GigTonCo2": 6.06,
+        "China_GigTonCo2": 2.730787587,
+        "World_GigTonCo2": 22.56962428
+      },
+      {
+        "Year": "01/01/1993",
+        "USA_GigTonCo2": 6.16,
+        "China_GigTonCo2": 2.921650956,
+        "World_GigTonCo2": 22.80349535
+      },
+      {
+        "Year": "01/01/1994",
+        "USA_GigTonCo2": 6.29,
+        "China_GigTonCo2": 3.100002045,
+        "World_GigTonCo2": 22.96458336
+      },
+      {
+        "Year": "01/01/1995",
+        "USA_GigTonCo2": 6.35,
+        "China_GigTonCo2": 3.357908888,
+        "World_GigTonCo2": 23.45394445
+      },
+      {
+        "Year": "01/01/1996",
+        "USA_GigTonCo2": 6.58,
+        "China_GigTonCo2": 3.503233703,
+        "World_GigTonCo2": 24.15496121
+      },
+      {
+        "Year": "01/01/1997",
+        "USA_GigTonCo2": 6.7,
+        "China_GigTonCo2": 3.510169286,
+        "World_GigTonCo2": 24.30055043
+      },
+      {
+        "Year": "01/01/1998",
+        "USA_GigTonCo2": 6.77,
+        "China_GigTonCo2": 3.360455433,
+        "World_GigTonCo2": 24.20627127
+      },
+      {
+        "Year": "01/01/1999",
+        "USA_GigTonCo2": 6.86,
+        "China_GigTonCo2": 3.350340129,
+        "World_GigTonCo2": 24.51896229
+      },
+      {
+        "Year": "01/01/2000",
+        "USA_GigTonCo2": 7.11,
+        "China_GigTonCo2": 3.43915221,
+        "World_GigTonCo2": 25.23420725
+      },
+      {
+        "Year": "01/01/2001",
+        "USA_GigTonCo2": 7.01,
+        "China_GigTonCo2": 3.514933795,
+        "World_GigTonCo2": 25.4510545
+      },
+      {
+        "Year": "01/01/2002",
+        "USA_GigTonCo2": 7.07,
+        "China_GigTonCo2": 3.872595297,
+        "World_GigTonCo2": 26.03919148
+      },
+      {
+        "Year": "01/01/2003",
+        "USA_GigTonCo2": 7.18,
+        "China_GigTonCo2": 4.545013886,
+        "World_GigTonCo2": 27.36672329
+      },
+      {
+        "Year": "01/01/2004",
+        "USA_GigTonCo2": 7.28,
+        "China_GigTonCo2": 5.223754656,
+        "World_GigTonCo2": 28.62753303
+      },
+      {
+        "Year": "01/01/2005",
+        "USA_GigTonCo2": 7.33,
+        "China_GigTonCo2": 5.87655534,
+        "World_GigTonCo2": 29.6027772
+      },
+      {
+        "Year": "01/01/2006",
+        "USA_GigTonCo2": 7.27,
+        "China_GigTonCo2": 6.488803816,
+        "World_GigTonCo2": 30.58353008
+      },
+      {
+        "Year": "01/01/2007",
+        "USA_GigTonCo2": 7.38,
+        "China_GigTonCo2": 6.978611952,
+        "World_GigTonCo2": 31.49374159
+      },
+      {
+        "Year": "01/01/2008",
+        "USA_GigTonCo2": 7.16,
+        "China_GigTonCo2": 7.496832207,
+        "World_GigTonCo2": 32.06944401
+      },
+      {
+        "Year": "01/01/2009",
+        "USA_GigTonCo2": 6.67,
+        "China_GigTonCo2": 7.886532768,
+        "World_GigTonCo2": 31.60704241
+      },
+      {
+        "Year": "01/01/2010",
+        "USA_GigTonCo2": 6.88,
+        "China_GigTonCo2": 8.616652695,
+        "World_GigTonCo2": 33.34330045
+      },
+      {
+        "Year": "01/01/2011",
+        "USA_GigTonCo2": 6.77,
+        "China_GigTonCo2": 9.528555734,
+        "World_GigTonCo2": 34.46845105
+      },
+      {
+        "Year": "01/01/2012",
+        "USA_GigTonCo2": 6.58,
+        "China_GigTonCo2": 9.775621803,
+        "World_GigTonCo2": 34.97407515
+      },
+      {
+        "Year": "01/01/2013",
+        "USA_GigTonCo2": 6.71,
+        "China_GigTonCo2": 9.952743755,
+        "World_GigTonCo2": 35.28302544
+      },
+      {
+        "Year": "01/01/2014",
+        "USA_GigTonCo2": 6.75,
+        "China_GigTonCo2": 9.985583382,
+        "World_GigTonCo2": 35.53444295
+      },
+      {
+        "Year": "01/01/2015",
+        "USA_GigTonCo2": 6.61,
+        "China_GigTonCo2": 9.84841974,
+        "World_GigTonCo2": 35.49640634
+      },
+      {
+        "Year": "01/01/2016",
+        "USA_GigTonCo2": 6.47,
+        "China_GigTonCo2": 9.720444086,
+        "World_GigTonCo2": 35.4524593
+      },
+      {
+        "Year": "01/01/2017",
+        "USA_GigTonCo2": 6.41,
+        "China_GigTonCo2": 9.920459189,
+        "World_GigTonCo2": 35.92573769
+      },
+      {
+        "Year": "01/01/2018",
+        "USA_GigTonCo2": 6.59,
+        "China_GigTonCo2": 10.28998953,
+        "World_GigTonCo2": 36.64613979
+      },
+      {
+        "Year": "01/01/2019",
+        "USA_GigTonCo2": 6.46,
+        "China_GigTonCo2": 10.48998856,
+        "World_GigTonCo2": 36.7025029
+      },
+      {
+        "Year": "01/01/2020",
+        "USA_GigTonCo2": 5.78,
+        "China_GigTonCo2": 10.66788745,
+        "World_GigTonCo2": 34.8072591
+      }
+    ]
+  },
+  "repeat": {"layer": ["China_GigTonCo2", "USA_GigTonCo2"]},
+  "title": {
+    "text": "C02 Emissions of USA and China",
+    "subtitle": "Giga Tonnes of C02 visualisation 1. source - World Bank",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "spec": {
+    "mark": "line",
+    "encoding": {
+      "x": {"field": "Year", "type": "temporal"},
+      "y": {
+        "aggregate": "sum",
+        "field": {"repeat": "layer"},
+        "type": "quantitative",
+        "title": "Giga ton of CO2 emissions"
+      },
+      "color": {"datum": {"repeat": "layer"}, "type": "nominal"}
+    }
+  },
+  "config": {}
+}
