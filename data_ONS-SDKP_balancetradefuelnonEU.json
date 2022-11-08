@@ -1,23 +1,4 @@
 {
-    "description": {
-        "cdid": "SDKP",
-        "contact": {
-            "email": " trade@ons.gov.uk ",
-            "name": "Hannah Donnarumma",
-            "telephone": "+44 1329 447648"
-        },
-        "datasetId": "MRET",
-        "datasetUri": "/economy/nationalaccounts/balanceofpayments/datasets/tradeingoodsmretsallbopeu2013timeseriesspreadsheet",
-        "date": "2022 AUG",
-        "nextRelease": "11 November 2022 ",
-        "number": "-10741",
-        "preUnit": "",
-        "releaseDate": "2022-10-11T23:00:00.000Z",
-        "sampleSize": "0",
-        "source": "",
-        "title": "Trade in Goods: Fuels (3): Non-EU: Balance: BOP: CP: SA",
-        "unit": ""
-    },
     "months": [
         {
             "date": "1997 JAN",
