@@ -1,0 +1,651 @@
+constituency_name,county_name,constituency_type,declaration_time,result,first_party,second_party
+Aberavon,West Glamorgan,County,13/12/2019 02:30,Lab hold,Lab,Con
+Aberconwy,Clwyd,County,13/12/2019 03:09,Con hold,Con,Lab
+Aberdeen North,Scotland,Borough,13/12/2019 03:13,SNP hold,SNP,Con
+Aberdeen South,Scotland,Borough,13/12/2019 03:34,SNP gain from Con,SNP,Con
+Airdrie and Shotts,Scotland,County,13/12/2019 02:59,SNP hold,SNP,Lab
+Aldershot,Hampshire,Borough,13/12/2019 02:26,Con hold,Con,Lab
+Aldridge-Brownhills,West Midlands,Borough,13/12/2019 02:51,Con hold,Con,Lab
+Altrincham and Sale West,Greater Manchester,Borough,13/12/2019 04:35,Con hold,Con,Lab
+Alyn and Deeside,Clwyd,County,13/12/2019 04:30,Lab hold,Lab,Con
+Amber Valley,Derbyshire,County,13/12/2019 03:15,Con hold,Con,Lab
+Angus,Scotland,County,13/12/2019 01:55,SNP gain from Con,SNP,Con
+Arfon,Gwynedd,County,13/12/2019 01:55,PC hold,PC,Lab
+Argyll and Bute,Scotland,County,13/12/2019 05:43,SNP hold,SNP,Con
+Arundel and South Downs,West Sussex,County,13/12/2019 08:09,Con hold,Con,LD
+Ashfield,Nottinghamshire,County,13/12/2019 04:13,Con gain from Lab,Con,Ashfield Independents
+Ashford,Kent,County,13/12/2019 03:03,Con hold,Con,Lab
+Ashton-Under-Lyne,Greater Manchester,Borough,13/12/2019 04:05,Lab hold,Lab,Con
+Aylesbury,Buckinghamshire,County,13/12/2019 04:29,Con hold,Con,Lab
+"Ayr, Carrick and Cumnock",Scotland,County,13/12/2019 03:52,SNP gain from Con,SNP,Con
+Banbury,Oxfordshire,County,13/12/2019 04:53,Con hold,Con,Lab
+Banff and Buchan,Scotland,County,13/12/2019 05:03,Con hold,Con,SNP
+Barking,London,Borough,13/12/2019 03:42,Lab hold,Lab,Con
+Barnsley Central,South Yorkshire,Borough,13/12/2019 02:14,Lab hold,Lab,Brexit
+Barnsley East,South Yorkshire,County,13/12/2019 02:00,Lab hold,Lab,Brexit
+Barrow and Furness,Cumbria,County,13/12/2019 03:20,Con gain from Lab Coop,Con,Lab
+Basildon and Billericay,Essex,Borough,13/12/2019 01:48,Con hold,Con,Lab
+Basingstoke,Hampshire,Borough,13/12/2019 02:58,Con hold,Con,Lab
+Bassetlaw,Nottinghamshire,County,13/12/2019 03:38,Con gain from Lab,Con,Lab
+Bath,Avon,Borough,13/12/2019 02:59,LD hold,LD,Con
+Batley and Spen,West Yorkshire,Borough,13/12/2019 05:16,Lab hold,Lab,Con
+Battersea,London,Borough,13/12/2019 02:34,Lab hold,Lab,Con
+Beaconsfield,Buckinghamshire,County,13/12/2019 04:09,Con hold,Con,Ind
+Beckenham,London,Borough,13/12/2019 04:16,Con hold,Con,Lab
+Bedford,Bedfordshire,Borough,13/12/2019 03:49,Lab hold,Lab,Con
+Belfast East,Northern Ireland,Borough,13/12/2019 03:08,DUP hold,DUP,Alliance
+Belfast North,Northern Ireland,Borough,13/12/2019 02:57,SF gain from DUP,SF,DUP
+Belfast South,Northern Ireland,Borough,13/12/2019 03:43,SDLP gain from DUP,SDLP,DUP
+Belfast West,Northern Ireland,Borough,13/12/2019 02:50,SF hold,SF,PBPA
+Bermondsey and Old Southwark,London,Borough,13/12/2019 04:03,Lab hold,Lab,LD
+"Berwickshire, Roxburgh and Selkirk",Scotland,County,13/12/2019 03:40,Con hold,Con,SNP
+Berwick-Upon-Tweed,Northumberland,County,13/12/2019 03:41,Con hold,Con,Lab
+Bethnal Green and Bow,London,Borough,13/12/2019 04:26,Lab hold,Lab,Con
+Beverley and Holderness,Humberside,County,13/12/2019 02:27,Con hold,Con,Lab
+Bexhill and Battle,East Sussex,County,13/12/2019 03:42,Con hold,Con,Lab
+Bexleyheath and Crayford,London,Borough,13/12/2019 03:44,Con hold,Con,Lab
+Birkenhead,Merseyside,Borough,13/12/2019 02:04,Lab hold,Lab,Birkenhead Social Justice Party
+"Birmingham, Edgbaston",West Midlands,Borough,13/12/2019 03:47,Lab hold,Lab,Con
+"Birmingham, Erdington",West Midlands,Borough,13/12/2019 03:30,Lab hold,Lab,Con
+"Birmingham, Hall Green",West Midlands,Borough,13/12/2019 04:27,Lab hold,Lab,Con
+"Birmingham, Hodge Hill",West Midlands,Borough,13/12/2019 04:00,Lab hold,Lab,Con
+"Birmingham, Ladywood",West Midlands,Borough,13/12/2019 03:34,Lab hold,Lab,Con
+"Birmingham, Northfield",West Midlands,Borough,13/12/2019 04:07,Con gain from Lab,Con,Lab
+"Birmingham, Perry Barr",West Midlands,Borough,13/12/2019 03:53,Lab hold,Lab,Con
+"Birmingham, Selly Oak",West Midlands,Borough,13/12/2019 03:20,Lab hold,Lab,Con
+"Birmingham, Yardley",West Midlands,Borough,13/12/2019 04:19,Lab hold,Lab,Con
+Bishop Auckland,Durham,County,13/12/2019 02:48,Con gain from Lab,Con,Lab
+Blackburn,Lancashire,Borough,13/12/2019 02:25,Lab hold,Lab,Con
+Blackley and Broughton,Greater Manchester,Borough,13/12/2019 04:25,Lab hold,Lab,Con
+Blackpool North and Cleveleys,Lancashire,Borough,13/12/2019 02:42,Con hold,Con,Lab
+Blackpool South,Lancashire,Borough,13/12/2019 02:33,Con gain from Lab,Con,Lab
+Blaenau Gwent,Gwent and Mid Glamorgan,County,13/12/2019 03:51,Lab hold,Lab,Brexit
+Blaydon,Tyne and Wear,Borough,13/12/2019 02:17,Lab hold,Lab,Con
+Blyth Valley,Northumberland,Borough,12/12/2019 23:32,Con gain from Lab,Con,Lab
+Bognor Regis and Littlehampton,West Sussex,County,13/12/2019 04:42,Con hold,Con,Lab
+Bolsover,Derbyshire,County,13/12/2019 05:05,Con gain from Lab,Con,Lab
+Bolton North East,Greater Manchester,Borough,13/12/2019 03:22,Con gain from Lab,Con,Lab
+Bolton South East,Greater Manchester,Borough,13/12/2019 02:50,Lab hold,Lab,Con
+Bolton West,Greater Manchester,County,13/12/2019 02:34,Con hold,Con,Lab
+Bootle,Merseyside,Borough,13/12/2019 02:08,Lab hold,Lab,Con
+Boston and Skegness,Lincolnshire,County,13/12/2019 04:47,Con hold,Con,Lab
+Bosworth,Leicestershire,County,13/12/2019 02:52,Con hold,Con,Lab
+Bournemouth East,Dorset,Borough,13/12/2019 05:03,Con hold,Con,Lab
+Bournemouth West,Dorset,Borough,13/12/2019 04:56,Con hold,Con,Lab
+Bracknell,Berkshire,County,13/12/2019 01:53,Con hold,Con,Lab
+Bradford East,West Yorkshire,Borough,13/12/2019 04:47,Lab hold,Lab,Con
+Bradford South,West Yorkshire,Borough,13/12/2019 05:01,Lab hold,Lab,Con
+Bradford West,West Yorkshire,Borough,13/12/2019 04:27,Lab hold,Lab,Con
+Braintree,Essex,County,13/12/2019 03:12,Con hold,Con,Lab
+Brecon and Radnorshire,Powys,County,13/12/2019 03:40,Con hold,Con,LD
+Brent Central,London,Borough,13/12/2019 03:37,Lab hold,Lab,Con
+Brentford and Isleworth,London,Borough,13/12/2019 04:22,Lab hold,Lab,Con
+Brent North,London,Borough,13/12/2019 03:36,Lab hold,Lab,Con
+Brentwood and Ongar,Essex,County,13/12/2019 03:11,Con hold,Con,Lab
+Bridgend,Gwent and Mid Glamorgan,County,13/12/2019 03:07,Con gain from Lab,Con,Lab
+Bridgwater and West Somerset,Somerset,County,13/12/2019 04:37,Con hold,Con,Lab
+Brigg and Goole,Humberside,County,13/12/2019 04:04,Con hold,Con,Lab
+"Brighton, Kemptown",East Sussex,Borough,13/12/2019 03:44,Lab hold,Lab,Con
+"Brighton, Pavilion",East Sussex,Borough,13/12/2019 04:21,Green hold,Green,Lab
+Bristol East,Avon,Borough,13/12/2019 03:34,Lab hold,Lab,Con
+Bristol North West,Avon,Borough,13/12/2019 03:24,Lab hold,Lab,Con
+Bristol South,Avon,Borough,13/12/2019 03:30,Lab hold,Lab,Con
+Bristol West,Avon,Borough,13/12/2019 03:52,Lab hold,Lab,Green
+Broadland,Norfolk,County,13/12/2019 05:06,Con hold,Con,Lab
+Bromley and Chislehurst,London,Borough,13/12/2019 04:07,Con hold,Con,Lab
+Bromsgrove,Hereford and Worcester,County,13/12/2019 03:08,Con hold,Con,Lab
+Broxbourne,Hertfordshire,Borough,13/12/2019 01:15,Con hold,Con,Lab
+Broxtowe,Nottinghamshire,County,13/12/2019 03:37,Con hold,Con,Lab
+Buckingham,Buckinghamshire,County,13/12/2019 05:42,Con gain from Spk,Con,LD
+Burnley,Lancashire,Borough,13/12/2019 02:45,Con gain from Lab,Con,Lab
+Burton,Staffordshire,County,13/12/2019 03:14,Con hold,Con,Lab
+Bury North,Greater Manchester,Borough,13/12/2019 05:25,Con gain from Lab,Con,Lab
+Bury South,Greater Manchester,Borough,13/12/2019 03:43,Con gain from Lab,Con,Lab
+Bury St Edmunds,Suffolk,County,13/12/2019 03:31,Con hold,Con,Lab
+Caerphilly,Gwent and Mid Glamorgan,County,13/12/2019 01:42,Lab hold,Lab,Con
+"Caithness, Sutherland and Easter Ross",Scotland,County,13/12/2019 05:25,LD hold,LD,SNP
+Calder Valley,West Yorkshire,County,13/12/2019 04:46,Con hold,Con,Lab
+Camberwell and Peckham,London,Borough,13/12/2019 03:56,Lab hold,Lab,Con
+Camborne and Redruth,Cornwall,County,13/12/2019 03:03,Con hold,Con,Lab
+Cambridge,Cambridgeshire,Borough,13/12/2019 04:09,Lab hold,Lab,LD
+Cannock Chase,Staffordshire,County,13/12/2019 02:19,Con hold,Con,Lab
+Canterbury,Kent,County,13/12/2019 02:34,Lab hold,Lab,Con
+Cardiff Central,South Glamorgan,Borough,13/12/2019 03:48,Lab hold,Lab,Con
+Cardiff North,South Glamorgan,Borough,13/12/2019 04:17,Lab hold,Lab,Con
+Cardiff South and Penarth,South Glamorgan,Borough,13/12/2019 03:41,Lab hold,Lab,Con
+Cardiff West,South Glamorgan,Borough,13/12/2019 04:35,Lab hold,Lab,Con
+Carlisle,Cumbria,County,13/12/2019 02:09,Con hold,Con,Lab
+Carmarthen East and Dinefwr,Dyfed,County,13/12/2019 03:02,PC hold,PC,Con
+Carmarthen West and South Pembrokeshire,Dyfed,County,13/12/2019 04:21,Con hold,Con,Lab
+Carshalton and Wallington,London,Borough,13/12/2019 05:23,Con gain from LD,Con,LD
+Castle Point,Essex,Borough,13/12/2019 03:26,Con hold,Con,Lab
+Central Ayrshire,Scotland,County,13/12/2019 04:36,SNP hold,SNP,Con
+Central Devon,Devon,County,13/12/2019 04:50,Con hold,Con,Lab
+Central Suffolk and North Ipswich,Suffolk,County,13/12/2019 03:52,Con hold,Con,Lab
+Ceredigion,Dyfed,County,13/12/2019 03:23,PC hold,PC,Con
+Charnwood,Leicestershire,County,13/12/2019 04:36,Con hold,Con,Lab
+Chatham and Aylesford,Kent,County,13/12/2019 04:50,Con hold,Con,Lab
+Cheadle,Greater Manchester,Borough,13/12/2019 04:22,Con hold,Con,LD
+Chelmsford,Essex,Borough,13/12/2019 01:57,Con hold,Con,LD
+Chelsea and Fulham,London,Borough,13/12/2019 03:06,Con hold,Con,LD
+Cheltenham,Gloucestershire,Borough,13/12/2019 06:29,Con hold,Con,LD
+Chesham and Amersham,Buckinghamshire,County,13/12/2019 03:46,Con hold,Con,LD
+Chesterfield,Derbyshire,Borough,13/12/2019 04:23,Lab hold,Lab,Con
+Chichester,West Sussex,County,13/12/2019 03:59,Con hold,Con,LD
+Chingford and Woodford Green,London,County,13/12/2019 02:30,Con hold,Con,Lab
+Chippenham,Wiltshire,County,13/12/2019 04:00,Con hold,Con,LD
+Chipping Barnet,London,Borough,13/12/2019 05:34,Con hold,Con,Lab
+Chorley,Lancashire,County,13/12/2019 01:40,Spk gain from Lab,Spk,Ind
+Christchurch,Dorset,County,13/12/2019 05:34,Con hold,Con,LD
+Cities Of London and Westminster,London,Borough,13/12/2019 02:58,Con hold,Con,LD
+City Of Chester,Cheshire,County,13/12/2019 04:03,Lab hold,Lab,Con
+City Of Durham,Durham,County,13/12/2019 03:08,Lab hold,Lab,Con
+Clacton,Essex,County,13/12/2019 03:30,Con hold,Con,Lab
+Cleethorpes,Humberside,County,13/12/2019 03:08,Con hold,Con,Lab
+Clwyd South,Clwyd,County,13/12/2019 02:09,Con gain from Lab,Con,Lab
+Clwyd West,Clwyd,County,13/12/2019 02:58,Con hold,Con,Lab
+"Coatbridge, Chryston and Bellshill",Scotland,Borough,13/12/2019 03:34,SNP gain from Lab,SNP,Lab
+Colchester,Essex,Borough,13/12/2019 02:34,Con hold,Con,Lab
+Colne Valley,West Yorkshire,County,13/12/2019 05:55,Con gain from Lab,Con,Lab
+Congleton,Cheshire,County,13/12/2019 04:58,Con hold,Con,Lab
+Copeland,Cumbria,County,13/12/2019 02:24,Con hold,Con,Lab
+Corby,Northamptonshire,County,13/12/2019 04:44,Con hold,Con,Lab
+Coventry North East,West Midlands,Borough,13/12/2019 04:41,Lab hold,Lab,Con
+Coventry North West,West Midlands,Borough,13/12/2019 05:10,Lab hold,Lab,Con
+Coventry South,West Midlands,Borough,13/12/2019 04:54,Lab hold,Lab,Con
+Crawley,West Sussex,Borough,13/12/2019 04:20,Con hold,Con,Lab
+Crewe and Nantwich,Cheshire,County,13/12/2019 04:21,Con gain from Lab,Con,Lab
+Croydon Central,London,Borough,13/12/2019 04:29,Lab hold,Lab,Con
+Croydon North,London,Borough,13/12/2019 06:02,Lab hold,Lab,Con
+Croydon South,London,Borough,13/12/2019 06:33,Con hold,Con,Lab
+"Cumbernauld, Kilsyth and Kirkintilloch East",Scotland,County,13/12/2019 03:21,SNP hold,SNP,Lab
+Cynon Valley,Gwent and Mid Glamorgan,County,13/12/2019 02:46,Lab hold,Lab,Con
+Dagenham and Rainham,London,Borough,13/12/2019 05:07,Lab hold,Lab,Con
+Darlington,Durham,Borough,13/12/2019 01:28,Con gain from Lab,Con,Lab
+Dartford,Kent,County,13/12/2019 04:44,Con hold,Con,Lab
+Daventry,Northamptonshire,County,13/12/2019 04:33,Con hold,Con,Lab
+Delyn,Clwyd,County,13/12/2019 03:21,Con gain from Lab,Con,Lab
+Denton and Reddish,Greater Manchester,Borough,13/12/2019 04:12,Lab hold,Lab,Con
+Derby North,Derbyshire,Borough,13/12/2019 04:36,Con gain from Lab,Con,Lab
+Derbyshire Dales,Derbyshire,County,13/12/2019 04:06,Con hold,Con,Lab
+Derby South,Derbyshire,Borough,13/12/2019 04:25,Lab hold,Lab,Con
+Devizes,Wiltshire,County,13/12/2019 04:50,Con hold,Con,LD
+Dewsbury,West Yorkshire,County,13/12/2019 05:37,Con gain from Lab,Con,Lab
+Doncaster Central,South Yorkshire,Borough,13/12/2019 03:24,Lab hold,Lab,Con
+Doncaster North,South Yorkshire,County,13/12/2019 03:07,Lab hold,Lab,Con
+Don Valley,South Yorkshire,County,13/12/2019 03:31,Con gain from Lab,Con,Lab
+Dover,Kent,County,13/12/2019 03:05,Con hold,Con,Lab
+Dudley North,West Midlands,Borough,13/12/2019 05:04,Con gain from Lab,Con,Lab
+Dudley South,West Midlands,Borough,13/12/2019 04:33,Con hold,Con,Lab
+Dulwich and West Norwood,London,Borough,13/12/2019 03:55,Lab hold,Lab,Green
+Dumfries and Galloway,Scotland,County,13/12/2019 04:07,Con hold,Con,SNP
+"Dumfriesshire, Clydesdale and Tweeddale",Scotland,County,13/12/2019 04:38,Con hold,Con,SNP
+Dundee East,Scotland,Borough,13/12/2019 03:37,SNP hold,SNP,Con
+Dundee West,Scotland,Borough,13/12/2019 03:31,SNP hold,SNP,Lab
+Dunfermline and West Fife,Scotland,County,13/12/2019 04:15,SNP hold,SNP,Lab
+Dwyfor Meirionnydd,Gwynedd,County,13/12/2019 02:22,PC hold,PC,Con
+Ealing Central and Acton,London,Borough,13/12/2019 02:11,Lab hold,Lab,Con
+Ealing North,London,Borough,13/12/2019 02:16,Lab hold,Lab,Con
+"Ealing, Southall",London,Borough,13/12/2019 02:44,Lab hold,Lab,Con
+Easington,Durham,County,13/12/2019 03:21,Lab hold,Lab,Con
+East Antrim,Northern Ireland,County,13/12/2019 03:21,DUP hold,DUP,Alliance
+Eastbourne,East Sussex,Borough,13/12/2019 02:59,Con gain from LD,Con,LD
+East Devon,Devon,County,13/12/2019 04:58,Con hold,Con,Ind
+East Dunbartonshire,Scotland,County,13/12/2019 03:44,SNP gain from LD,SNP,LD
+East Ham,London,Borough,13/12/2019 03:35,Lab hold,Lab,Con
+East Hampshire,Hampshire,County,13/12/2019 03:16,Con hold,Con,LD
+"East Kilbride, Strathaven and Lesmahagow",Scotland,County,13/12/2019 02:34,SNP hold,SNP,Lab
+Eastleigh,Hampshire,Borough,13/12/2019 02:33,Con hold,Con,LD
+East Londonderry,Northern Ireland,County,13/12/2019 03:01,DUP hold,DUP,SDLP
+East Lothian,Scotland,County,13/12/2019 02:57,SNP gain from Lab,SNP,Lab
+East Renfrewshire,Scotland,County,13/12/2019 03:04,SNP gain from Con,SNP,Con
+East Surrey,Surrey,County,13/12/2019 03:16,Con hold,Con,LD
+East Worthing and Shoreham,West Sussex,County,13/12/2019 04:51,Con hold,Con,Lab
+East Yorkshire,Humberside,County,13/12/2019 03:19,Con hold,Con,Lab
+Eddisbury,Cheshire,County,13/12/2019 03:28,Con hold,Con,Lab
+Edinburgh East,Scotland,Borough,13/12/2019 04:34,SNP hold,SNP,Lab
+Edinburgh North and Leith,Scotland,Borough,13/12/2019 04:43,SNP hold,SNP,Lab
+Edinburgh South,Scotland,Borough,13/12/2019 04:22,Lab hold,Lab,SNP
+Edinburgh South West,Scotland,Borough,13/12/2019 04:11,SNP hold,SNP,Con
+Edinburgh West,Scotland,Borough,13/12/2019 04:52,LD hold,LD,SNP
+Edmonton,London,Borough,13/12/2019 02:55,Lab hold,Lab,Con
+Ellesmere Port and Neston,Cheshire,County,13/12/2019 05:26,Lab hold,Lab,Con
+Elmet and Rothwell,West Yorkshire,County,13/12/2019 04:15,Con hold,Con,Lab
+Eltham,London,Borough,13/12/2019 03:15,Lab hold,Lab,Con
+Enfield North,London,Borough,13/12/2019 04:11,Lab hold,Lab,Con
+"Enfield, Southgate",London,Borough,13/12/2019 03:55,Lab hold,Lab,Con
+Epping Forest,Essex,County,13/12/2019 02:10,Con hold,Con,Lab
+Epsom and Ewell,Surrey,Borough,13/12/2019 03:45,Con hold,Con,LD
+Erewash,Derbyshire,County,13/12/2019 03:09,Con hold,Con,Lab
+Erith and Thamesmead,London,Borough,13/12/2019 03:16,Lab hold,Lab,Con
+Esher and Walton,Surrey,Borough,13/12/2019 03:17,Con hold,Con,LD
+Exeter,Devon,Borough,13/12/2019 03:47,Lab hold,Lab,Con
+Falkirk,Scotland,County,13/12/2019 03:56,SNP hold,SNP,Con
+Fareham,Hampshire,County,13/12/2019 02:06,Con hold,Con,Lab
+Faversham and Mid Kent,Kent,County,13/12/2019 03:40,Con hold,Con,Lab
+Feltham and Heston,London,Borough,13/12/2019 04:13,Lab hold,Lab,Con
+Fermanagh and South Tyrone,Northern Ireland,County,13/12/2019 06:59,SF hold,SF,UUP
+Filton and Bradley Stoke,Avon,County,13/12/2019 03:59,Con hold,Con,Lab
+Finchley and Golders Green,London,Borough,13/12/2019 05:05,Con hold,Con,LD
+Folkestone and Hythe,Kent,County,13/12/2019 02:41,Con hold,Con,Lab
+Forest Of Dean,Gloucestershire,County,13/12/2019 03:01,Con hold,Con,Lab
+Foyle,Northern Ireland,County,13/12/2019 04:13,SDLP gain from SF,SDLP,SF
+Fylde,Lancashire,County,13/12/2019 01:21,Con hold,Con,Lab
+Gainsborough,Lincolnshire,County,13/12/2019 03:35,Con hold,Con,Lab
+Garston and Halewood,Merseyside,Borough,13/12/2019 02:25,Lab hold,Lab,Con
+Gateshead,Tyne and Wear,Borough,13/12/2019 01:41,Lab hold,Lab,Con
+Gedling,Nottinghamshire,County,13/12/2019 03:13,Con gain from Lab,Con,Lab
+Gillingham and Rainham,Kent,Borough,13/12/2019 04:40,Con hold,Con,Lab
+Glasgow Central,Scotland,Borough,13/12/2019 04:09,SNP hold,SNP,Lab
+Glasgow East,Scotland,Borough,13/12/2019 03:40,SNP hold,SNP,Lab
+Glasgow North,Scotland,Borough,13/12/2019 03:25,SNP hold,SNP,Lab
+Glasgow North East,Scotland,Borough,13/12/2019 03:57,SNP gain from Lab Coop,SNP,Lab
+Glasgow North West,Scotland,Borough,13/12/2019 03:48,SNP hold,SNP,Lab
+Glasgow South,Scotland,Borough,13/12/2019 04:15,SNP hold,SNP,Lab
+Glasgow South West,Scotland,Borough,13/12/2019 04:03,SNP hold,SNP,Lab
+Glenrothes,Scotland,County,13/12/2019 03:44,SNP hold,SNP,Lab
+Gloucester,Gloucestershire,Borough,13/12/2019 03:00,Con hold,Con,Lab
+Gordon,Scotland,County,13/12/2019 05:14,SNP gain from Con,SNP,Con
+Gosport,Hampshire,Borough,13/12/2019 03:08,Con hold,Con,Lab
+Gower,West Glamorgan,County,13/12/2019 02:39,Lab hold,Lab,Con
+Grantham and Stamford,Lincolnshire,County,13/12/2019 03:10,Con hold,Con,Lab
+Gravesham,Kent,County,13/12/2019 04:10,Con hold,Con,Lab
+Great Grimsby,Humberside,Borough,13/12/2019 03:46,Con gain from Lab,Con,Lab
+Great Yarmouth,Norfolk,County,13/12/2019 03:33,Con hold,Con,Lab
+Greenwich and Woolwich,London,Borough,13/12/2019 04:02,Lab hold,Lab,Con
+Guildford,Surrey,County,13/12/2019 03:34,Con hold,Con,LD
+Hackney North and Stoke Newington,London,Borough,13/12/2019 03:43,Lab hold,Lab,Con
+Hackney South and Shoreditch,London,Borough,13/12/2019 03:48,Lab hold,Lab,Con
+Halesowen and Rowley Regis,West Midlands,Borough,13/12/2019 05:16,Con hold,Con,Lab
+Halifax,West Yorkshire,Borough,13/12/2019 04:07,Lab hold,Lab,Con
+Haltemprice and Howden,Humberside,County,13/12/2019 02:29,Con hold,Con,Lab
+Halton,Cheshire,County,13/12/2019 00:47,Lab hold,Lab,Con
+Hammersmith,London,Borough,13/12/2019 03:10,Lab hold,Lab,Con
+Hampstead and Kilburn,London,Borough,13/12/2019 04:25,Lab hold,Lab,Con
+Harborough,Leicestershire,County,13/12/2019 03:54,Con hold,Con,Lab
+Harlow,Essex,County,13/12/2019 01:59,Con hold,Con,Lab
+Harrogate and Knaresborough,North Yorkshire,County,13/12/2019 01:56,Con hold,Con,LD
+Harrow East,London,Borough,13/12/2019 03:22,Con hold,Con,Lab
+Harrow West,London,Borough,13/12/2019 03:37,Lab hold,Lab,Con
+Hartlepool,Cleveland,Borough,13/12/2019 02:20,Lab hold,Lab,Con
+Harwich and North Essex,Essex,County,13/12/2019 02:40,Con hold,Con,Lab
+Hastings and Rye,East Sussex,County,13/12/2019 04:21,Con hold,Con,Lab
+Havant,Hampshire,Borough,13/12/2019 02:02,Con hold,Con,Lab
+Hayes and Harlington,London,Borough,13/12/2019 03:09,Lab hold,Lab,Con
+Hazel Grove,Greater Manchester,County,13/12/2019 03:22,Con hold,Con,LD
+Hemel Hempstead,Hertfordshire,County,13/12/2019 02:20,Con hold,Con,Lab
+Hemsworth,West Yorkshire,County,13/12/2019 04:26,Lab hold,Lab,Con
+Hendon,London,Borough,13/12/2019 05:43,Con hold,Con,Lab
+Henley,Oxfordshire,County,13/12/2019 05:24,Con hold,Con,LD
+Hereford and South Herefordshire,Hereford and Worcester,County,13/12/2019 03:43,Con hold,Con,Lab
+Hertford and Stortford,Hertfordshire,County,13/12/2019 03:49,Con hold,Con,Lab
+Hertsmere,Hertfordshire,County,13/12/2019 02:35,Con hold,Con,Lab
+Hexham,Northumberland,County,13/12/2019 02:30,Con hold,Con,Lab
+Heywood and Middleton,Greater Manchester,County,13/12/2019 02:58,Con gain from Lab,Con,Lab
+High Peak,Derbyshire,County,13/12/2019 03:15,Con gain from Lab,Con,Lab
+Hitchin and Harpenden,Hertfordshire,County,13/12/2019 04:29,Con hold,Con,LD
+Holborn and St Pancras,London,Borough,13/12/2019 04:20,Lab hold,Lab,Con
+Hornchurch and Upminster,London,Borough,13/12/2019 03:00,Con hold,Con,Lab
+Hornsey and Wood Green,London,Borough,13/12/2019 04:11,Lab hold,Lab,LD
+Horsham,West Sussex,County,13/12/2019 06:35,Con hold,Con,LD
+Houghton and Sunderland South,Tyne and Wear,Borough,12/12/2019 23:29,Lab hold,Lab,Con
+Hove,East Sussex,Borough,13/12/2019 04:37,Lab hold,Lab,Con
+Huddersfield,West Yorkshire,Borough,13/12/2019 04:37,Lab hold,Lab,Con
+Huntingdon,Cambridgeshire,County,13/12/2019 03:23,Con hold,Con,Lab
+Hyndburn,Lancashire,Borough,13/12/2019 03:06,Con gain from Lab,Con,Lab
+Ilford North,London,Borough,13/12/2019 04:42,Lab hold,Lab,Con
+Ilford South,London,Borough,13/12/2019 04:32,Lab hold,Lab,Con
+Inverclyde,Scotland,County,13/12/2019 02:32,SNP hold,SNP,Lab
+"Inverness, Nairn, Badenoch and Strathspey",Scotland,County,13/12/2019 05:00,SNP hold,SNP,Con
+Ipswich,Suffolk,Borough,13/12/2019 02:48,Con gain from Lab,Con,Lab
+Isle Of Wight,Isle of Wight,County,13/12/2019 04:03,Con hold,Con,Lab
+Islington North,London,Borough,13/12/2019 03:18,Lab hold,Lab,LD
+Islington South and Finsbury,London,Borough,13/12/2019 03:05,Lab hold,Lab,LD
+Islwyn,Gwent and Mid Glamorgan,County,13/12/2019 02:01,Lab hold,Lab,Con
+Jarrow,Tyne and Wear,Borough,13/12/2019 01:30,Lab hold,Lab,Con
+Keighley,West Yorkshire,County,13/12/2019 05:12,Con gain from Lab,Con,Lab
+Kenilworth and Southam,Warwickshire,County,13/12/2019 03:32,Con hold,Con,LD
+Kensington,London,Borough,13/12/2019 04:22,Con gain from Lab,Con,Lab
+Kettering,Northamptonshire,County,13/12/2019 01:23,Con hold,Con,Lab
+Kilmarnock and Loudoun,Scotland,County,13/12/2019 01:55,SNP hold,SNP,Con
+Kingston and Surbiton,London,Borough,13/12/2019 03:12,LD hold,LD,Con
+Kingston upon Hull East,Humberside,Borough,13/12/2019 03:06,Lab hold,Lab,Con
+Kingston upon Hull North,Humberside,Borough,13/12/2019 03:15,Lab hold,Lab,Con
+Kingston upon Hull West and Hessle,Humberside,Borough,13/12/2019 04:01,Lab hold,Lab,Con
+Kingswood,Avon,Borough,13/12/2019 04:30,Con hold,Con,Lab
+Kirkcaldy and Cowdenbeath,Scotland,County,13/12/2019 04:00,SNP gain from Lab,SNP,Lab
+Knowsley,Merseyside,Borough,13/12/2019 01:46,Lab hold,Lab,Con
+Lagan Valley,Northern Ireland,County,13/12/2019 04:34,DUP hold,DUP,Alliance
+Lanark and Hamilton East,Scotland,County,13/12/2019 02:23,SNP hold,SNP,Con
+Lancaster and Fleetwood,Lancashire,County,13/12/2019 04:12,Lab hold,Lab,Con
+Leeds Central,West Yorkshire,Borough,13/12/2019 03:11,Lab hold,Lab,Con
+Leeds East,West Yorkshire,Borough,13/12/2019 02:51,Lab hold,Lab,Con
+Leeds North East,West Yorkshire,Borough,13/12/2019 04:07,Lab hold,Lab,Con
+Leeds North West,West Yorkshire,Borough,13/12/2019 03:55,Lab hold,Lab,Con
+Leeds West,West Yorkshire,Borough,13/12/2019 03:46,Lab hold,Lab,Con
+Leicester East,Leicestershire,Borough,13/12/2019 02:02,Lab hold,Lab,Con
+Leicester South,Leicestershire,Borough,13/12/2019 01:47,Lab hold,Lab,Con
+Leicester West,Leicestershire,Borough,13/12/2019 02:13,Lab hold,Lab,Con
+Leigh,Greater Manchester,County,13/12/2019 01:59,Con gain from Lab Coop,Con,Lab
+Lewes,East Sussex,County,13/12/2019 05:06,Con hold,Con,LD
+"Lewisham, Deptford",London,Borough,13/12/2019 02:36,Lab hold,Lab,Con
+Lewisham East,London,Borough,13/12/2019 01:55,Lab hold,Lab,Con
+Lewisham West and Penge,London,Borough,13/12/2019 02:11,Lab hold,Lab,Con
+Leyton and Wanstead,London,County,13/12/2019 02:05,Lab hold,Lab,Con
+Lichfield,Staffordshire,County,13/12/2019 02:49,Con hold,Con,Lab
+Lincoln,Lincolnshire,Borough,13/12/2019 03:48,Con gain from Lab,Con,Lab
+Linlithgow and East Falkirk,Scotland,County,13/12/2019 04:09,SNP hold,SNP,Con
+"Liverpool, Riverside",Merseyside,Borough,13/12/2019 02:34,Lab hold,Lab,Con
+"Liverpool, Walton",Merseyside,Borough,13/12/2019 02:41,Lab hold,Lab,Con
+"Liverpool, Wavertree",Merseyside,Borough,13/12/2019 02:58,Lab hold,Lab,Con
+"Liverpool, West Derby",Merseyside,Borough,13/12/2019 02:50,Lab hold,Lab,Con
+Livingston,Scotland,County,13/12/2019 03:57,SNP hold,SNP,Con
+Llanelli,Dyfed,County,13/12/2019 02:12,Lab hold,Lab,Con
+Loughborough,Leicestershire,County,13/12/2019 04:52,Con hold,Con,Lab
+Louth and Horncastle,Lincolnshire,County,13/12/2019 03:27,Con hold,Con,Lab
+Ludlow,Shropshire,County,13/12/2019 04:18,Con hold,Con,LD
+Luton North,Bedfordshire,Borough,13/12/2019 03:00,Lab hold,Lab,Con
+Luton South,Bedfordshire,Borough,13/12/2019 02:47,Lab hold,Lab,Con
+Macclesfield,Cheshire,County,13/12/2019 04:06,Con hold,Con,Lab
+Maidenhead,Berkshire,County,13/12/2019 03:34,Con hold,Con,LD
+Maidstone and The Weald,Kent,County,13/12/2019 03:54,Con hold,Con,Lab
+Makerfield,Greater Manchester,County,13/12/2019 01:41,Lab hold,Lab,Con
+Maldon,Essex,County,13/12/2019 05:12,Con hold,Con,Lab
+Manchester Central,Greater Manchester,Borough,13/12/2019 04:13,Lab hold,Lab,Con
+"Manchester, Gorton",Greater Manchester,Borough,13/12/2019 04:44,Lab hold,Lab,Con
+"Manchester, Withington",Greater Manchester,Borough,13/12/2019 04:36,Lab hold,Lab,LD
+Mansfield,Nottinghamshire,County,13/12/2019 03:54,Con hold,Con,Lab
+Meon Valley,Hampshire,County,13/12/2019 04:51,Con hold,Con,LD
+Meriden,West Midlands,County,13/12/2019 01:59,Con hold,Con,Lab
+Merthyr Tydfil and Rhymney,Gwent and Mid Glamorgan,County,13/12/2019 02:51,Lab hold,Lab,Con
+Mid Bedfordshire,Bedfordshire,County,13/12/2019 03:09,Con hold,Con,Lab
+Mid Derbyshire,Derbyshire,County,13/12/2019 05:39,Con hold,Con,Lab
+Middlesbrough,Cleveland,Borough,13/12/2019 00:25,Lab hold,Lab,Con
+Middlesbrough South and East Cleveland,Cleveland,County,13/12/2019 02:58,Con hold,Con,Lab
+Mid Dorset and North Poole,Dorset,County,13/12/2019 04:48,Con hold,Con,LD
+Midlothian,Scotland,County,13/12/2019 02:41,SNP gain from Lab,SNP,Lab
+Mid Norfolk,Norfolk,County,13/12/2019 02:46,Con hold,Con,Lab
+Mid Sussex,West Sussex,County,13/12/2019 04:05,Con hold,Con,LD
+Mid Ulster,Northern Ireland,County,13/12/2019 02:55,SF hold,SF,DUP
+Mid Worcestershire,Hereford and Worcester,County,13/12/2019 02:37,Con hold,Con,Lab
+Milton Keynes North,Buckinghamshire,County,13/12/2019 04:31,Con hold,Con,Lab
+Milton Keynes South,Buckinghamshire,Borough,13/12/2019 04:40,Con hold,Con,Lab
+Mitcham and Morden,London,Borough,13/12/2019 03:02,Lab hold,Lab,Con
+Mole Valley,Surrey,County,13/12/2019 03:52,Con hold,Con,LD
+Monmouth,Gwent and Mid Glamorgan,County,13/12/2019 03:36,Con hold,Con,Lab
+Montgomeryshire,Powys,County,13/12/2019 03:32,Con hold,Con,LD
+Moray,Scotland,County,13/12/2019 03:16,Con hold,Con,SNP
+Morecambe and Lunesdale,Lancashire,County,13/12/2019 04:14,Con hold,Con,Lab
+Morley and Outwood,West Yorkshire,County,13/12/2019 04:25,Con hold,Con,Lab
+Motherwell and Wishaw,Scotland,Borough,13/12/2019 03:43,SNP hold,SNP,Lab
+Na h-Eileanan An Iar,Scotland,County,13/12/2019 02:37,SNP hold,SNP,Lab
+Neath,West Glamorgan,County,13/12/2019 03:03,Lab hold,Lab,Con
+Newark,Nottinghamshire,County,13/12/2019 03:40,Con hold,Con,Lab
+Newbury,Berkshire,County,13/12/2019 03:09,Con hold,Con,LD
+Newcastle-Under-Lyme,Staffordshire,Borough,13/12/2019 04:45,Con gain from Lab,Con,Lab
+Newcastle Upon Tyne Central,Tyne and Wear,Borough,12/12/2019 23:27,Lab hold,Lab,Con
+Newcastle Upon Tyne East,Tyne and Wear,Borough,13/12/2019 00:05,Lab hold,Lab,Con
+Newcastle Upon Tyne North,Tyne and Wear,Borough,13/12/2019 00:46,Lab hold,Lab,Con
+New Forest East,Hampshire,County,13/12/2019 02:14,Con hold,Con,Lab
+New Forest West,Hampshire,County,13/12/2019 02:55,Con hold,Con,LD
+Newport East,Gwent and Mid Glamorgan,County,13/12/2019 02:49,Lab hold,Lab,Con
+Newport West,Gwent and Mid Glamorgan,County,13/12/2019 02:58,Lab hold,Lab,Con
+Newry and Armagh,Northern Ireland,County,13/12/2019 05:05,SF hold,SF,DUP
+Newton Abbot,Devon,County,13/12/2019 02:49,Con hold,Con,LD
+"Normanton, Pontefract and Castleford",West Yorkshire,County,13/12/2019 04:01,Lab hold,Lab,Con
+Northampton North,Northamptonshire,Borough,13/12/2019 04:17,Con hold,Con,Lab
+Northampton South,Northamptonshire,Borough,13/12/2019 03:44,Con hold,Con,Lab
+North Antrim,Northern Ireland,County,13/12/2019 04:54,DUP hold,DUP,UUP
+North Ayrshire and Arran,Scotland,County,13/12/2019 02:56,SNP hold,SNP,Con
+North Cornwall,Cornwall,County,13/12/2019 05:30,Con hold,Con,LD
+North Devon,Devon,County,13/12/2019 03:40,Con hold,Con,LD
+North Dorset,Dorset,County,13/12/2019 05:58,Con hold,Con,LD
+North Down,Northern Ireland,County,13/12/2019 01:52,Alliance gain from Ind,Alliance,DUP
+North Durham,Durham,County,13/12/2019 03:14,Lab hold,Lab,Con
+North East Bedfordshire,Bedfordshire,County,13/12/2019 04:21,Con hold,Con,Lab
+North East Cambridgeshire,Cambridgeshire,County,13/12/2019 04:20,Con hold,Con,Lab
+North East Derbyshire,Derbyshire,County,13/12/2019 03:58,Con hold,Con,Lab
+North East Fife,Scotland,County,13/12/2019 03:29,LD gain from SNP,LD,SNP
+North East Hampshire,Hampshire,County,13/12/2019 02:19,Con hold,Con,LD
+North East Hertfordshire,Hertfordshire,County,13/12/2019 03:24,Con hold,Con,Lab
+North East Somerset,Avon,County,13/12/2019 03:28,Con hold,Con,Lab
+North Herefordshire,Hereford and Worcester,County,13/12/2019 03:51,Con hold,Con,LD
+North Norfolk,Norfolk,County,13/12/2019 03:11,Con gain from LD,Con,LD
+North Shropshire,Shropshire,County,13/12/2019 04:30,Con hold,Con,Lab
+North Somerset,Avon,County,13/12/2019 05:02,Con hold,Con,Lab
+North Swindon,Wiltshire,County,13/12/2019 00:30,Con hold,Con,Lab
+North Thanet,Kent,County,13/12/2019 05:27,Con hold,Con,Lab
+North Tyneside,Tyne and Wear,Borough,13/12/2019 02:41,Lab hold,Lab,Con
+North Warwickshire,Warwickshire,County,13/12/2019 02:13,Con hold,Con,Lab
+North West Cambridgeshire,Cambridgeshire,County,13/12/2019 03:37,Con hold,Con,Lab
+North West Durham,Durham,County,13/12/2019 03:42,Con gain from Lab,Con,Lab
+North West Hampshire,Hampshire,County,13/12/2019 03:59,Con hold,Con,LD
+North West Leicestershire,Leicestershire,County,13/12/2019 03:09,Con hold,Con,Lab
+North West Norfolk,Norfolk,County,13/12/2019 03:50,Con hold,Con,Lab
+North Wiltshire,Wiltshire,County,13/12/2019 04:15,Con hold,Con,LD
+Norwich North,Norfolk,Borough,13/12/2019 04:18,Con hold,Con,Lab
+Norwich South,Norfolk,Borough,13/12/2019 02:35,Lab hold,Lab,Con
+Nottingham East,Nottinghamshire,Borough,13/12/2019 02:52,Lab hold,Lab,Con
+Nottingham North,Nottinghamshire,Borough,13/12/2019 02:39,Lab hold,Lab,Con
+Nottingham South,Nottinghamshire,Borough,13/12/2019 02:32,Lab hold,Lab,Con
+Nuneaton,Warwickshire,County,13/12/2019 01:06,Con hold,Con,Lab
+Ochil and South Perthshire,Scotland,County,13/12/2019 02:45,SNP gain from Con,SNP,Con
+Ogmore,Gwent and Mid Glamorgan,County,13/12/2019 02:19,Lab hold,Lab,Con
+Old Bexley and Sidcup,London,Borough,13/12/2019 03:28,Con hold,Con,Lab
+Oldham East and Saddleworth,Greater Manchester,County,13/12/2019 03:53,Lab hold,Lab,Con
+Oldham West and Royton,Greater Manchester,Borough,13/12/2019 03:30,Lab hold,Lab,Con
+Orkney and Shetland,Scotland,County,13/12/2019 06:01,LD hold,LD,SNP
+Orpington,London,Borough,13/12/2019 03:37,Con hold,Con,Lab
+Oxford East,Oxfordshire,Borough,13/12/2019 03:10,Lab hold,Lab,Con
+Oxford West and Abingdon,Oxfordshire,County,13/12/2019 05:38,LD hold,LD,Con
+Paisley and Renfrewshire North,Scotland,County,13/12/2019 02:39,SNP hold,SNP,Lab
+Paisley and Renfrewshire South,Scotland,County,13/12/2019 02:12,SNP hold,SNP,Lab
+Pendle,Lancashire,Borough,13/12/2019 02:44,Con hold,Con,Lab
+Penistone and Stocksbridge,South Yorkshire,County,13/12/2019 03:44,Con gain from Lab,Con,Lab
+Penrith and The Border,Cumbria,County,13/12/2019 03:20,Con hold,Con,Lab
+Perth and North Perthshire,Scotland,County,13/12/2019 02:39,SNP hold,SNP,Con
+Peterborough,Cambridgeshire,Borough,13/12/2019 01:46,Con gain from Lab,Con,Lab
+"Plymouth, Moor View",Devon,Borough,13/12/2019 05:08,Con hold,Con,Lab
+"Plymouth, Sutton and Devonport",Devon,Borough,13/12/2019 05:32,Lab hold,Lab,Con
+Pontypridd,Gwent and Mid Glamorgan,County,13/12/2019 02:48,Lab hold,Lab,Con
+Poole,Dorset,Borough,13/12/2019 05:20,Con hold,Con,Lab
+Poplar and Limehouse,London,Borough,13/12/2019 04:36,Lab hold,Lab,Con
+Portsmouth North,Hampshire,Borough,13/12/2019 03:30,Con hold,Con,Lab
+Portsmouth South,Hampshire,Borough,13/12/2019 03:13,Lab hold,Lab,Con
+Preseli Pembrokeshire,Dyfed,County,13/12/2019 03:59,Con hold,Con,Lab
+Preston,Lancashire,Borough,13/12/2019 02:45,Lab hold,Lab,Con
+Pudsey,West Yorkshire,Borough,13/12/2019 04:30,Con hold,Con,Lab
+Putney,London,Borough,13/12/2019 01:54,Lab gain from Con,Lab,Con
+Rayleigh and Wickford,Essex,County,13/12/2019 01:44,Con hold,Con,Lab
+Reading East,Berkshire,Borough,13/12/2019 03:49,Lab hold,Lab,Con
+Reading West,Berkshire,County,13/12/2019 04:14,Con hold,Con,Lab
+Redcar,Cleveland,Borough,13/12/2019 02:43,Con gain from Lab Coop,Con,Lab
+Redditch,Hereford and Worcester,County,13/12/2019 03:01,Con hold,Con,Lab
+Reigate,Surrey,Borough,13/12/2019 03:30,Con hold,Con,Lab
+Rhondda,Gwent and Mid Glamorgan,County,13/12/2019 02:33,Lab hold,Lab,Con
+Ribble Valley,Lancashire,County,13/12/2019 02:51,Con hold,Con,Lab
+Richmond Park,London,Borough,13/12/2019 03:14,LD gain from Con,LD,Con
+Richmond (Yorks),North Yorkshire,County,13/12/2019 04:14,Con hold,Con,Lab
+Rochdale,Greater Manchester,County,13/12/2019 01:54,Lab hold,Lab,Con
+Rochester and Strood,Kent,County,13/12/2019 04:28,Con hold,Con,Lab
+Rochford and Southend East,Essex,County,13/12/2019 02:23,Con hold,Con,Lab
+Romford,London,Borough,13/12/2019 03:10,Con hold,Con,Lab
+Romsey and Southampton North,Hampshire,County,13/12/2019 03:40,Con hold,Con,LD
+Rossendale and Darwen,Lancashire,Borough,13/12/2019 04:14,Con hold,Con,Lab
+"Ross, Skye and Lochaber",Scotland,County,13/12/2019 05:45,SNP hold,SNP,LD
+Rotherham,South Yorkshire,Borough,13/12/2019 02:45,Lab hold,Lab,Con
+Rother Valley,South Yorkshire,County,13/12/2019 03:47,Con gain from Lab,Con,Lab
+Rugby,Warwickshire,County,13/12/2019 02:38,Con hold,Con,Lab
+"Ruislip, Northwood and Pinner",London,Borough,13/12/2019 04:13,Con hold,Con,Lab
+Runnymede and Weybridge,Surrey,County,13/12/2019 04:19,Con hold,Con,Lab
+Rushcliffe,Nottinghamshire,County,13/12/2019 02:05,Con hold,Con,Lab
+Rutherglen and Hamilton West,Scotland,Borough,13/12/2019 01:25,SNP gain from Lab Coop,SNP,Lab
+Rutland and Melton,Leicestershire,County,13/12/2019 04:38,Con hold,Con,Lab
+Saffron Walden,Essex,County,13/12/2019 02:39,Con hold,Con,LD
+Salford and Eccles,Greater Manchester,Borough,13/12/2019 03:37,Lab hold,Lab,Con
+Salisbury,Wiltshire,County,13/12/2019 04:57,Con hold,Con,LD
+Scarborough and Whitby,North Yorkshire,County,13/12/2019 02:43,Con hold,Con,Lab
+Scunthorpe,Humberside,County,13/12/2019 03:08,Con gain from Lab,Con,Lab
+Sedgefield,Durham,County,13/12/2019 03:25,Con gain from Lab,Con,Lab
+Sefton Central,Merseyside,County,13/12/2019 02:42,Lab hold,Lab,Con
+Selby and Ainsty,North Yorkshire,County,13/12/2019 03:45,Con hold,Con,Lab
+Sevenoaks,Kent,County,13/12/2019 03:20,Con hold,Con,LD
+"Sheffield, Brightside and Hillsborough",South Yorkshire,Borough,13/12/2019 03:04,Lab hold,Lab,Con
+Sheffield Central,South Yorkshire,Borough,13/12/2019 03:51,Lab hold,Lab,Con
+"Sheffield, Hallam",South Yorkshire,County,13/12/2019 05:10,Lab hold,Lab,LD
+"Sheffield, Heeley",South Yorkshire,Borough,13/12/2019 04:02,Lab hold,Lab,Con
+Sheffield South East,South Yorkshire,Borough,13/12/2019 03:34,Lab hold,Lab,Con
+Sherwood,Nottinghamshire,County,13/12/2019 04:57,Con hold,Con,Lab
+Shipley,West Yorkshire,County,13/12/2019 05:00,Con hold,Con,Lab
+Shrewsbury and Atcham,Shropshire,County,13/12/2019 04:05,Con hold,Con,Lab
+Sittingbourne and Sheppey,Kent,County,13/12/2019 04:04,Con hold,Con,Lab
+Skipton and Ripon,North Yorkshire,County,13/12/2019 04:21,Con hold,Con,Lab
+Sleaford and North Hykeham,Lincolnshire,County,13/12/2019 04:02,Con hold,Con,Lab
+Slough,Berkshire,Borough,13/12/2019 03:38,Lab hold,Lab,Con
+Solihull,West Midlands,Borough,13/12/2019 02:12,Con hold,Con,Lab
+Somerton and Frome,Somerset,County,13/12/2019 05:16,Con hold,Con,LD
+"Southampton, Itchen",Hampshire,Borough,13/12/2019 05:01,Con hold,Con,Lab
+"Southampton, Test",Hampshire,Borough,13/12/2019 05:04,Lab hold,Lab,Con
+South Antrim,Northern Ireland,County,13/12/2019 03:23,DUP hold,DUP,UUP
+South Basildon and East Thurrock,Essex,County,13/12/2019 01:44,Con hold,Con,Lab
+South Cambridgeshire,Cambridgeshire,County,13/12/2019 03:22,Con hold,Con,LD
+South Derbyshire,Derbyshire,County,13/12/2019 03:26,Con hold,Con,Lab
+South Dorset,Dorset,County,13/12/2019 04:13,Con hold,Con,Lab
+South Down,Northern Ireland,County,13/12/2019 03:29,SF hold,SF,SDLP
+South East Cambridgeshire,Cambridgeshire,County,13/12/2019 04:45,Con hold,Con,LD
+South East Cornwall,Cornwall,County,13/12/2019 05:41,Con hold,Con,Lab
+Southend West,Essex,Borough,13/12/2019 02:11,Con hold,Con,Lab
+South Holland and The Deepings,Lincolnshire,County,13/12/2019 03:00,Con hold,Con,Lab
+South Leicestershire,Leicestershire,County,13/12/2019 04:32,Con hold,Con,Lab
+South Norfolk,Norfolk,County,13/12/2019 04:32,Con hold,Con,Lab
+South Northamptonshire,Northamptonshire,County,13/12/2019 07:13,Con hold,Con,Lab
+Southport,Merseyside,Borough,13/12/2019 02:13,Con hold,Con,Lab
+South Ribble,Lancashire,County,13/12/2019 02:59,Con hold,Con,Lab
+South Shields,Tyne and Wear,Borough,13/12/2019 01:00,Lab hold,Lab,Con
+South Staffordshire,Staffordshire,County,13/12/2019 04:11,Con hold,Con,Lab
+South Suffolk,Suffolk,County,13/12/2019 03:54,Con hold,Con,Lab
+South Swindon,Wiltshire,County,13/12/2019 02:22,Con hold,Con,Lab
+South Thanet,Kent,County,13/12/2019 04:43,Con hold,Con,Lab
+South West Bedfordshire,Bedfordshire,County,13/12/2019 02:55,Con hold,Con,Lab
+South West Devon,Devon,County,13/12/2019 05:54,Con hold,Con,Lab
+South West Hertfordshire,Hertfordshire,County,13/12/2019 05:07,Con hold,Con,Ind
+South West Norfolk,Norfolk,County,13/12/2019 04:47,Con hold,Con,Lab
+South West Surrey,Surrey,County,13/12/2019 03:56,Con hold,Con,LD
+South West Wiltshire,Wiltshire,County,13/12/2019 04:11,Con hold,Con,Lab
+Spelthorne,Surrey,Borough,13/12/2019 05:01,Con hold,Con,Lab
+Stafford,Staffordshire,County,13/12/2019 03:27,Con hold,Con,Lab
+Staffordshire Moorlands,Staffordshire,County,13/12/2019 03:20,Con hold,Con,Lab
+St Albans,Hertfordshire,County,13/12/2019 03:51,LD gain from Con,LD,Con
+Stalybridge and Hyde,Greater Manchester,County,13/12/2019 04:00,Lab hold,Lab,Con
+St Austell and Newquay,Cornwall,County,13/12/2019 05:41,Con hold,Con,Lab
+Stevenage,Hertfordshire,County,13/12/2019 02:54,Con hold,Con,Lab
+St Helens North,Merseyside,Borough,13/12/2019 02:14,Lab hold,Lab,Con
+St Helens South and Whiston,Merseyside,Borough,13/12/2019 02:43,Lab hold,Lab,Con
+Stirling,Scotland,County,13/12/2019 03:19,SNP gain from Con,SNP,Con
+St Ives,Cornwall,County,13/12/2019 14:52,Con hold,Con,LD
+Stockport,Greater Manchester,Borough,13/12/2019 03:08,Lab hold,Lab,Con
+Stockton North,Cleveland,Borough,13/12/2019 02:08,Lab hold,Lab,Con
+Stockton South,Cleveland,Borough,13/12/2019 02:33,Con gain from Lab,Con,Lab
+Stoke-On-Trent Central,Staffordshire,Borough,13/12/2019 04:25,Con gain from Lab Coop,Con,Lab
+Stoke-On-Trent North,Staffordshire,Borough,13/12/2019 04:30,Con gain from Lab,Con,Lab
+Stoke-On-Trent South,Staffordshire,Borough,13/12/2019 04:35,Con hold,Con,Lab
+Stone,Staffordshire,County,13/12/2019 03:54,Con hold,Con,Lab
+Stourbridge,West Midlands,Borough,13/12/2019 04:53,Con hold,Con,Lab
+Strangford,Northern Ireland,County,13/12/2019 01:56,DUP hold,DUP,Alliance
+Stratford-On-Avon,Warwickshire,County,13/12/2019 02:11,Con hold,Con,LD
+Streatham,London,Borough,13/12/2019 04:21,Lab hold,Lab,LD
+Stretford and Urmston,Greater Manchester,Borough,13/12/2019 03:54,Lab hold,Lab,Con
+Stroud,Gloucestershire,County,13/12/2019 03:09,Con gain from Lab Coop,Con,Lab
+Suffolk Coastal,Suffolk,County,13/12/2019 05:32,Con hold,Con,Lab
+Sunderland Central,Tyne and Wear,Borough,13/12/2019 00:08,Lab hold,Lab,Con
+Surrey Heath,Surrey,County,13/12/2019 03:45,Con hold,Con,LD
+Sutton and Cheam,London,Borough,13/12/2019 03:43,Con hold,Con,LD
+Sutton Coldfield,West Midlands,Borough,13/12/2019 03:22,Con hold,Con,Lab
+Swansea East,West Glamorgan,Borough,13/12/2019 02:18,Lab hold,Lab,Con
+Swansea West,West Glamorgan,Borough,13/12/2019 02:02,Lab hold,Lab,Con
+Tamworth,Staffordshire,County,13/12/2019 03:40,Con hold,Con,Lab
+Tatton,Cheshire,County,13/12/2019 03:29,Con hold,Con,Lab
+Taunton Deane,Somerset,County,13/12/2019 04:38,Con hold,Con,LD
+Telford,Shropshire,Borough,13/12/2019 02:56,Con hold,Con,Lab
+Tewkesbury,Gloucestershire,County,13/12/2019 04:56,Con hold,Con,LD
+The Cotswolds,Gloucestershire,County,13/12/2019 04:30,Con hold,Con,LD
+The Wrekin,Shropshire,County,13/12/2019 03:27,Con hold,Con,Lab
+Thirsk and Malton,North Yorkshire,County,13/12/2019 05:46,Con hold,Con,Lab
+Thornbury and Yate,Avon,County,13/12/2019 04:16,Con hold,Con,LD
+Thurrock,Essex,Borough,13/12/2019 02:05,Con hold,Con,Lab
+Tiverton and Honiton,Devon,County,13/12/2019 04:49,Con hold,Con,Lab
+Tonbridge and Malling,Kent,County,13/12/2019 04:04,Con hold,Con,LD
+Tooting,London,Borough,13/12/2019 03:03,Lab hold,Lab,Con
+Torbay,Devon,Borough,13/12/2019 02:47,Con hold,Con,LD
+Torfaen,Gwent and Mid Glamorgan,County,13/12/2019 02:48,Lab hold,Lab,Con
+Torridge and West Devon,Devon,County,13/12/2019 06:56,Con hold,Con,LD
+Totnes,Devon,County,13/12/2019 03:49,Con hold,Con,LD
+Tottenham,London,Borough,13/12/2019 04:01,Lab hold,Lab,Con
+Truro and Falmouth,Cornwall,County,13/12/2019 02:20,Con hold,Con,Lab
+Tunbridge Wells,Kent,County,13/12/2019 03:51,Con hold,Con,LD
+Twickenham,London,Borough,13/12/2019 02:54,LD hold,LD,Con
+Tynemouth,Tyne and Wear,Borough,13/12/2019 02:10,Lab hold,Lab,Con
+Upper Bann,Northern Ireland,County,13/12/2019 04:44,DUP hold,DUP,SF
+Uxbridge and South Ruislip,London,Borough,13/12/2019 03:40,Con hold,Con,Lab
+Vale Of Clwyd,Clwyd,County,13/12/2019 01:46,Con gain from Lab,Con,Lab
+Vale Of Glamorgan,South Glamorgan,County,13/12/2019 02:02,Con hold,Con,Lab
+Vauxhall,London,Borough,13/12/2019 04:14,Lab hold,Lab,LD
+Wakefield,West Yorkshire,County,13/12/2019 03:40,Con gain from Lab,Con,Lab
+Wallasey,Merseyside,Borough,13/12/2019 02:58,Lab hold,Lab,Con
+Walsall North,West Midlands,Borough,13/12/2019 02:27,Con hold,Con,Lab
+Walsall South,West Midlands,Borough,13/12/2019 03:11,Lab hold,Lab,Con
+Walthamstow,London,County,13/12/2019 01:56,Lab hold,Lab,Con
+Wansbeck,Northumberland,County,13/12/2019 01:18,Lab hold,Lab,Con
+Wantage,Oxfordshire,County,13/12/2019 05:08,Con hold,Con,LD
+Warley,West Midlands,Borough,13/12/2019 02:15,Lab hold,Lab,Con
+Warrington North,Cheshire,Borough,13/12/2019 04:00,Lab hold,Lab,Con
+Warrington South,Cheshire,Borough,13/12/2019 04:19,Con gain from Lab,Con,Lab
+Warwick and Leamington,Warwickshire,Borough,13/12/2019 04:10,Lab hold,Lab,Con
+Washington and Sunderland West,Tyne and Wear,Borough,13/12/2019 00:41,Lab hold,Lab,Con
+Watford,Hertfordshire,Borough,13/12/2019 03:07,Con hold,Con,Lab
+Waveney,Suffolk,County,13/12/2019 03:44,Con hold,Con,Lab
+Wealden,East Sussex,County,13/12/2019 02:52,Con hold,Con,LD
+Weaver Vale,Cheshire,County,13/12/2019 03:30,Lab hold,Lab,Con
+Wellingborough,Northamptonshire,County,13/12/2019 03:16,Con hold,Con,Lab
+Wells,Somerset,County,13/12/2019 04:25,Con hold,Con,LD
+Welwyn Hatfield,Hertfordshire,County,13/12/2019 04:38,Con hold,Con,Lab
+Wentworth and Dearne,South Yorkshire,County,13/12/2019 03:40,Lab hold,Lab,Con
+West Aberdeenshire and Kincardine,Scotland,County,13/12/2019 04:51,Con hold,Con,SNP
+West Bromwich East,West Midlands,Borough,13/12/2019 03:04,Con gain from Lab,Con,Lab
+West Bromwich West,West Midlands,Borough,13/12/2019 02:47,Con gain from Lab Coop,Con,Lab
+West Dorset,Dorset,County,13/12/2019 04:39,Con hold,Con,LD
+West Dunbartonshire,Scotland,County,13/12/2019 02:13,SNP hold,SNP,Lab
+West Ham,London,Borough,13/12/2019 03:42,Lab hold,Lab,Con
+West Lancashire,Lancashire,County,13/12/2019 03:07,Lab hold,Lab,Con
+Westminster North,London,Borough,13/12/2019 03:09,Lab hold,Lab,Con
+Westmorland and Lonsdale,Cumbria,County,13/12/2019 02:28,LD hold,LD,Con
+Weston-Super-Mare,Avon,County,13/12/2019 04:53,Con hold,Con,Lab
+West Suffolk,Suffolk,County,13/12/2019 02:44,Con hold,Con,Lab
+West Tyrone,Northern Ireland,County,13/12/2019 02:19,SF hold,SF,DUP
+West Worcestershire,Hereford and Worcester,County,13/12/2019 03:16,Con hold,Con,LD
+Wigan,Greater Manchester,County,13/12/2019 01:52,Lab hold,Lab,Con
+Wimbledon,London,Borough,13/12/2019 03:51,Con hold,Con,LD
+Winchester,Hampshire,County,13/12/2019 05:30,Con hold,Con,LD
+Windsor,Berkshire,County,13/12/2019 03:51,Con hold,Con,LD
+Wirral South,Merseyside,County,13/12/2019 02:38,Lab hold,Lab,Con
+Wirral West,Merseyside,County,13/12/2019 02:52,Lab hold,Lab,Con
+Witham,Essex,County,13/12/2019 03:40,Con hold,Con,Lab
+Witney,Oxfordshire,County,13/12/2019 03:15,Con hold,Con,LD
+Woking,Surrey,County,13/12/2019 04:19,Con hold,Con,LD
+Wokingham,Berkshire,County,13/12/2019 03:04,Con hold,Con,LD
+Wolverhampton North East,West Midlands,Borough,13/12/2019 02:37,Con gain from Lab,Con,Lab
+Wolverhampton South East,West Midlands,Borough,13/12/2019 03:03,Lab hold,Lab,Con
+Wolverhampton South West,West Midlands,Borough,13/12/2019 02:53,Con gain from Lab,Con,Lab
+Worcester,Hereford and Worcester,Borough,13/12/2019 03:16,Con hold,Con,Lab
+Workington,Cumbria,County,13/12/2019 01:23,Con gain from Lab,Con,Lab
+Worsley and Eccles South,Greater Manchester,County,13/12/2019 03:23,Lab hold,Lab,Con
+Worthing West,West Sussex,Borough,13/12/2019 05:08,Con hold,Con,Lab
+Wrexham,Clwyd,County,13/12/2019 01:49,Con gain from Lab,Con,Lab
+Wycombe,Buckinghamshire,County,13/12/2019 02:01,Con hold,Con,Lab
+Wyre and Preston North,Lancashire,County,13/12/2019 03:34,Con hold,Con,Lab
+Wyre Forest,Hereford and Worcester,County,13/12/2019 03:12,Con hold,Con,Lab
+Wythenshawe and Sale East,Greater Manchester,Borough,13/12/2019 05:04,Lab hold,Lab,Con
+Yeovil,Somerset,County,13/12/2019 05:28,Con hold,Con,LD
+Ynys Mon,Gwynedd,County,13/12/2019 02:45,Con gain from Lab,Con,Lab
+York Central,North Yorkshire,Borough,13/12/2019 04:18,Lab hold,Lab,Con
+York Outer,North Yorkshire,County,13/12/2019 04:35,Con hold,Con,Lab
