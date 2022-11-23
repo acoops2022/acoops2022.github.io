@@ -1,0 +1,104 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 200,
+  "width": 300,
+  "data": {
+    "values": [
+      {
+        "Year": "01/01/2010",
+        "Budget deficit": -108187,
+        "Total Government Consumption Expenditure": 87580,
+        "Government education expenditure": 16022,
+        "Government justice expenditure": 3143
+      },
+      {
+        "Year": "01/01/2011",
+        "Budget deficit": -89349,
+        "Total Government Consumption Expenditure": 87322,
+        "Government education expenditure": 15943,
+        "Government justice expenditure": 2877
+      },
+      {
+        "Year": "01/01/2012",
+        "Budget deficit": -101444,
+        "Total Government Consumption Expenditure": 90055,
+        "Government education expenditure": 16007,
+        "Government justice expenditure": 2661
+      },
+      {
+        "Year": "01/01/2013",
+        "Budget deficit": -69228,
+        "Total Government Consumption Expenditure": 91806,
+        "Government education expenditure": 16506,
+        "Government justice expenditure": 2700
+      },
+      {
+        "Year": "01/01/2014",
+        "Budget deficit": -73247,
+        "Total Government Consumption Expenditure": 93218,
+        "Government education expenditure": 17172,
+        "Government justice expenditure": 2591
+      },
+      {
+        "Year": "01/01/2015",
+        "Budget deficit": -51335,
+        "Total Government Consumption Expenditure": 93912,
+        "Government education expenditure": 16993,
+        "Government justice expenditure": 2427
+      },
+      {
+        "Year": "01/01/2016",
+        "Budget deficit": -25325,
+        "Total Government Consumption Expenditure": 96407,
+        "Government education expenditure": 17243,
+        "Government justice expenditure": 2476
+      },
+      {
+        "Year": "01/01/2017",
+        "Budget deficit": -2401,
+        "Total Government Consumption Expenditure": 98056,
+        "Government education expenditure": 17260,
+        "Government justice expenditure": 2489
+      },
+      {
+        "Year": "01/01/2018",
+        "Budget deficit": 733,
+        "Total Government Consumption Expenditure": 101211,
+        "Government education expenditure": 17825,
+        "Government justice expenditure": 2538
+      },
+      {
+        "Year": "01/01/2019",
+        "Budget deficit": 1721,
+        "Total Government Consumption Expenditure": 109391,
+        "Government education expenditure": 19055,
+        "Government justice expenditure": 2551
+      }
+    ]
+  },
+  "repeat": {
+    "layer": ["Budget deficit", "Total Government Consumption Expenditure"]
+  },
+  "title": {
+    "text": "Austerity in the UK?",
+    "subtitle": "Time series of the budget deficit and general government consumption expenditure. Source - ONS",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "spec": {
+    "mark": "line",
+    "encoding": {
+      "x": {"field": "Year", "type": "temporal"},
+      "y": {
+        "aggregate": "sum",
+        "field": {"repeat": "layer"},
+        "type": "quantitative",
+        "title": "£ millions"
+      },
+      "color": {"datum": {"repeat": "layer"}, "type": "nominal"}
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 150,
+  "height": 150,
+  "title": {
+    "text": "UK balance of Payments",
+    "subtitle": "Total balance of trade of goods with non-EU. source - ONS",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/acoops2022/acoops2022.github.io/main/data_ONS-L87K_balacetradegoodsnonEU.json",
+    "format": {"type": "json", "property": "years"}
+  },
+  "mark": {"type": "line", "color": "#ef1506"},
+  "encoding": {
+    "x": {"field": "date", "type": "temporal"},
+    "y": {"field": "value", "type": "quantitative", "title": "millions of £"}
+  },
+  "config": {}
+}

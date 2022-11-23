@@ -1,0 +1,53 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "United Kingdom",
+    "subtitle": [
+      "The parlimentary constituencies of the UK after the 2019 general election (excluding Ireland)"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "middle",
+    "color": "black"
+  },
+  "config": {"background": "white", "view": {"stroke": "transparent"}},
+  "width": 200,
+  "height": 450,
+  "data": {
+    "url": "https://raw.githubusercontent.com/martinjc/UK-GeoJSON/master/json/electoral/gb/wpc.json",
+    "format": {"property": "features"}
+  },
+  "projection": {"type": "mercator"},
+  "transform": [
+    {
+      "lookup": "properties.PCON13NM",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/acoops2022/acoops2022.github.io/main/GE2019-results-by-constituency-csv.csv"
+        },
+        "key": "constituency_name",
+        "fields": ["first_party"]
+      }
+    }
+  ],
+  "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.5},
+  "encoding": {
+    "color": {
+      "scale": {
+        "range": ["blue", "red", "yellow", "green", "orange", "grey", "grey"],
+        "domain": ["Con", "Lab", "SNP", "Green", "LD", "PC", "null"]
+      },
+      "field": "first_party",
+      "title": "Political Party",
+      "type": "nominal"
+    },
+    "tooltip": [
+      {
+        "field": "properties.PCON13NM",
+        "type": "nominal",
+        "title": "Constituency"
+      },
+      {"field": "first_party", "type": "nominal", "title": "Government Party"}
+    ]
+  }
+}
