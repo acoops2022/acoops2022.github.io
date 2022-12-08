@@ -1,0 +1,145 @@
+﻿Date,Region,TotalgovexpenBillion
+01/01/2010,North East (England),31
+01/01/2011,North East (England),32
+01/01/2012,North East (England),32
+01/01/2013,North East (England),32
+01/01/2014,North East (England),32
+01/01/2015,North East (England),33
+01/01/2016,North East (England),33
+01/01/2017,North East (England),34
+01/01/2018,North East (England),34
+01/01/2019,North East (England),35
+01/01/2020,North East (England),36
+01/01/2021,North East (England),45
+01/01/2010,North West (England),82
+01/01/2011,North West (England),84
+01/01/2012,North West (England),84
+01/01/2013,North West (England),86
+01/01/2014,North West (England),86
+01/01/2015,North West (England),88
+01/01/2016,North West (England),89
+01/01/2017,North West (England),91
+01/01/2018,North West (England),94
+01/01/2019,North West (England),96
+01/01/2020,North West (England),99
+01/01/2021,North West (England),122
+01/01/2010,Yorkshire and The Humber,58
+01/01/2011,Yorkshire and The Humber,60
+01/01/2012,Yorkshire and The Humber,61
+01/01/2013,Yorkshire and The Humber,62
+01/01/2014,Yorkshire and The Humber,62
+01/01/2015,Yorkshire and The Humber,63
+01/01/2016,Yorkshire and The Humber,64
+01/01/2017,Yorkshire and The Humber,65
+01/01/2018,Yorkshire and The Humber,66
+01/01/2019,Yorkshire and The Humber,67
+01/01/2020,Yorkshire and The Humber,68
+01/01/2021,Yorkshire and The Humber,86
+01/01/2010,East Midlands (England),47
+01/01/2011,East Midlands (England),49
+01/01/2012,East Midlands (England),49
+01/01/2013,East Midlands (England),50
+01/01/2014,East Midlands (England),50
+01/01/2015,East Midlands (England),52
+01/01/2016,East Midlands (England),52
+01/01/2017,East Midlands (England),53
+01/01/2018,East Midlands (England),55
+01/01/2019,East Midlands (England),56
+01/01/2020,East Midlands (England),58
+01/01/2021,East Midlands (England),73
+01/01/2010,West Midlands (England),62
+01/01/2011,West Midlands (England),63
+01/01/2012,West Midlands (England),64
+01/01/2013,West Midlands (England),65
+01/01/2014,West Midlands (England),65
+01/01/2015,West Midlands (England),68
+01/01/2016,West Midlands (England),67
+01/01/2017,West Midlands (England),69
+01/01/2018,West Midlands (England),70
+01/01/2019,West Midlands (England),74
+01/01/2020,West Midlands (England),76
+01/01/2021,West Midlands (England),93
+01/01/2010,East ,60
+01/01/2011,East ,63
+01/01/2012,East ,62
+01/01/2013,East ,63
+01/01/2014,East ,64
+01/01/2015,East ,66
+01/01/2016,East ,67
+01/01/2017,East ,68
+01/01/2018,East ,71
+01/01/2019,East ,72
+01/01/2020,East ,75
+01/01/2021,East ,96
+01/01/2010,London,106
+01/01/2011,London,110
+01/01/2012,London,111
+01/01/2013,London,113
+01/01/2014,London,114
+01/01/2015,London,116
+01/01/2016,London,119
+01/01/2017,London,120
+01/01/2018,London,126
+01/01/2019,London,127
+01/01/2020,London,132
+01/01/2021,London,173
+01/01/2010,South East (England),89
+01/01/2011,South East (England),92
+01/01/2012,South East (England),92
+01/01/2013,South East (England),95
+01/01/2014,South East (England),97
+01/01/2015,South East (England),99
+01/01/2016,South East (England),100
+01/01/2017,South East (England),104
+01/01/2018,South East (England),108
+01/01/2019,South East (England),110
+01/01/2020,South East (England),114
+01/01/2021,South East (England),144
+01/01/2010,South West (England),57
+01/01/2011,South West (England),59
+01/01/2012,South West (England),59
+01/01/2013,South West (England),61
+01/01/2014,South West (England),62
+01/01/2015,South West (England),64
+01/01/2016,South West (England),64
+01/01/2017,South West (England),66
+01/01/2018,South West (England),68
+01/01/2019,South West (England),69
+01/01/2020,South West (England),71
+01/01/2021,South West (England),90
+01/01/2010,Wales,37
+01/01/2011,Wales,38
+01/01/2012,Wales,39
+01/01/2013,Wales,39
+01/01/2014,Wales,39
+01/01/2015,Wales,40
+01/01/2016,Wales,40
+01/01/2017,Wales,41
+01/01/2018,Wales,42
+01/01/2019,Wales,43
+01/01/2020,Wales,44
+01/01/2021,Wales,55
+01/01/2010,Scotland,68
+01/01/2011,Scotland,70
+01/01/2012,Scotland,71
+01/01/2013,Scotland,72
+01/01/2014,Scotland,72
+01/01/2015,Scotland,73
+01/01/2016,Scotland,73
+01/01/2017,Scotland,76
+01/01/2018,Scotland,78
+01/01/2019,Scotland,80
+01/01/2020,Scotland,83
+01/01/2021,Scotland,100
+01/01/2010,Northern Ireland,23
+01/01/2011,Northern Ireland,24
+01/01/2012,Northern Ireland,25
+01/01/2013,Northern Ireland,25
+01/01/2014,Northern Ireland,25
+01/01/2015,Northern Ireland,25
+01/01/2016,Northern Ireland,25
+01/01/2017,Northern Ireland,26
+01/01/2018,Northern Ireland,26
+01/01/2019,Northern Ireland,27
+01/01/2020,Northern Ireland,28
+01/01/2021,Northern Ireland,35
