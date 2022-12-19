@@ -12,7 +12,7 @@
   },
   "config": {"background": "white", "view": {"stroke": "transparent"}},
   "width": 300,
-  "height": 500,
+  "height": 550,
   "data": {
     "url": "https://raw.githubusercontent.com/martinjc/UK-GeoJSON/master/json/electoral/gb/wpc.json",
     "format": {"property": "features"}
