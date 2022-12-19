@@ -6,12 +6,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Title for the page -->
-    <title>Document</title>
+    <title>Portfolio</title>
 
     <!-- Link to my style sheet -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/style.css">
+
 
     <!--The next three lines allow the Vega embed-->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
@@ -21,71 +22,113 @@
 
 
 
-<body>
-    <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
-    <div class="myWeek1">
-        <h1>Data Science for Economics:</h1>
-        
+<body id="portfolio-bg">
+    <div class="myWeek">
+        <h1>Portfolio</h1>
+
+        <div class="blackbox">
+            <h2>Week 1</h2>
+        </div>
+
         <h3>Current level of inflation</h3>
-        <p>The first chart looks at the percentage change in the Consumer Price Index (CPI) over a 12 month period.</p>
         <div class="chart" id="Chart1"></div>
+        <p>The first chart looks at the percentage change in the Consumer Price Index (CPI) over a 12 month period.</p>
+
 
         <h3>Inflation per sector</h3>
-        <p>The second chart looks at the percdentage change in prices for each sector of the economy</p>
         <div class="chart" id="Chart2"> </div>
+        <p>The second chart looks at the percdentage change in prices for each sector of the economy</p>
+
+
 
         <h3>World Food Industry CO2 Emissions</h3>
-        <p>The third chart looks at the amount of CO2 greenhouse gas emissions released in different food industries</p>
         <div class="chart" id="Chart3"> </div>
+        <p>The third chart looks at the amount of CO2 greenhouse gas emissions released in different food industries</p>
 
         <h3>UK CO2 emissions per sector</h3>
-        <p>The fourth chart looks at the amount of CO2 greenhouse gas emissions released in different UK industries</p>
         <div class="chart" id="Chart4"> </div>
+        <p>The fourth chart looks at the amount of CO2 greenhouse gas emissions released in different UK industries</p>
+
+        <div class="blackbox">
+            <h2>Week 2</h2>
+        </div>
 
         <h3>IMF lending Outstanding infation adjusted</h3>
-        <p>The fith chart looks at the amount of outstanding loan by the IMF adjusted for inflation (indexed using 1984 as the baseline) </p>
         <div class="chart" id="Chart5"> </div>
+        <p>The fith chart looks at the amount of outstanding loan by the IMF adjusted for inflation (indexed using 1984
+            as the
+            baseline) </p>
 
         <h3>IMF lending Outstanding GDP adjusted</h3>
-        <p>The sixth chart looks at the amount of outstanding loan by the IMF as a percentage of world GDP. When the chart is adjusted this way I conclude that 1984-1985 were the most risky years because they have the highest IMF loan outstanding as a percentage of world GDP. </p>
-        <div class="chart" id="Chart6"> </div>
 
-        
+        <div class="chart" id="Chart6"> </div>
+        <p>The sixth chart looks at the amount of outstanding loan by the IMF as a percentage of world GDP. When the
+            chart is
+            adjusted this way I conclude that 1984-1985 were the most risky years because they have the highest IMF loan
+            outstanding as a percentage of world GDP. </p>
+
+        <div class="blackbox">
+            <h2>Week 3</h2>
+        </div>
+
         <h3>C02 emissions of USA and China (time series)</h3>
-        <p>The first chart shows how C02 emissions from the USA and China have evolved over time and depicts the year China overtook USA. The Second graph uses the same data but visualsies it in a stacked area chart with tooltips which allows for prices observation of values and helps visualise the volume of C02 released by both countries. </p>
-        <div class="chart" id="Chart7"> </div>  <div class="chart" id="Chart7_5"> </div>
-        
-    
+
+        <div class="chart" id="Chart7"> </div>
+        <div class="chart" id="Chart7_5"> </div>
+        <p>The first chart shows how C02 emissions from the USA and China have evolved over time and depicts the year
+            China
+            overtook USA. The Second graph uses the same data but visualsies it in a stacked area chart with tooltips
+            which
+            allows for prices observation of values and helps visualise the volume of C02 released by both countries.
+        </p>
+
+
+        <div class="blackbox">
+            <h2>Week 4</h2>
+        </div>
 
         <h3>UK Polls</h3>
-        <p>The eigth chart shows Uk public opinion on who they vote for during the week Rishi Sunak became prime minister. </p>
-        <p>click <a href="https://colab.research.google.com/drive/1BACWYcO3uth7gPYJEv8Z3q8knG-37PHS?usp=sharing" id="link1"> here</a>
-            to see google collab on how to scrape and clean data from wiki-pedia: </p>
 
         <div class="chart" id="Chart8"> </div>
+        <p>The eigth chart shows Uk public opinion on who they vote for during the week Rishi Sunak became prime
+            minister. </p>
+        <p>Click <a href="https://colab.research.google.com/drive/1BACWYcO3uth7gPYJEv8Z3q8knG-37PHS?usp=sharing"
+                id="link1">
+                here</a>
+            to see google collab on how to scrape and clean data from wiki-pedia: </p>
+
+
+        <div class="blackbox">
+            <h2>Week 5</h2>
+        </div>
 
         <h3>UK Trade</h3>
-        <p>This weeks task was to batch download, using the ONS API, 9 time series data sets and display them as line graphs. I chose to look at the UK's balance of payments concerning goods, services, fuel and food with the world, the EU and non-EU countries. </p>
-        <p>click <a href="https://colab.research.google.com/drive/1jKc2o94ckqoNUTHg5Q3dk5VOKBFvwKFE#scrollTo=GNLGrUM_L5P3" id="link1"> here</a>
+
+        <div class="chart-grid">
+            <div class="column" class="chart" id="Chart9"></div>
+            <div class="column" class="chart" id="Chart10"></div>
+            <div class="column" class="chart" id="Chart11"></div>
+            <div class="column" class="chart" id="Chart12"></div>
+            <div class="column" class="chart" id="Chart13"></div>
+            <div class="column" class="chart" id="Chart14"></div>
+            <div class="column" class="chart" id="Chart15"></div>
+            <div class="column" class="chart" id="Chart16"></div>
+            <div class="column" class="chart" id="Chart17"></div>
+        </div>
+
+
+        <p>This weeks task was to batch download, using the ONS API, 9 time series data sets and display them as line
+            graphs. I
+            chose to look at the UK's balance of payments concerning goods, services, fuel and food with the world, the
+            EU and
+            non-EU countries. </p>
+        <p>Click <a
+                href="https://colab.research.google.com/drive/1jKc2o94ckqoNUTHg5Q3dk5VOKBFvwKFE#scrollTo=GNLGrUM_L5P3"
+                id="link1"> here</a>
             to see google collab on how to batch download data using an ONS API: </p>
 
-            <div class="row">
-                <div class="column" class="chart" id="Chart9"></div>
-                <div class="column" class="chart" id="Chart10"></div>
-                <div class="column" class="chart" id="Chart11"></div>
-              </div>
-              <div class="row">
-                <div class="column" class="chart" id="Chart12"></div>
-                <div class="column" class="chart" id="Chart13"></div>
-                <div class="column" class="chart" id="Chart14"></div>
-              </div>
-              <div class="row">
-                <div class="column" class="chart" id="Chart15"></div>
-                <div class="column" class="chart" id="Chart16"></div>
-                <div class="column" class="chart" id="Chart17"></div>
-              </div>
-            
-    </div> 
+
+    </div>
 </body>
 
 
@@ -127,7 +170,23 @@
     vegaEmbed('#Chart14', myChart14);
     vegaEmbed('#Chart15', myChart15);
     vegaEmbed('#Chart16', myChart16);
-    vegaEmbed('#Chart17', myChart17)
+    vegaEmbed('#Chart17', myChart17);
+
+
+
+    window.addEventListener("resize", changeBg);
+    changeBg();
+
+    function changeBg() {
+        let width = window.innerWidth;
+
+        if (width < 768) {
+            document.getElementById("portfolio-bg").style.backgroundColor = '#ffffff';
+        } else {
+            document.getElementById("portfolio-bg").style.backgroundColor = 'plum';
+        }
+    };
+
 </script>
 
 </html>
