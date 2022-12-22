@@ -1,0 +1,128 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "GBP (£) to Dollar ($) Exchange rate after political announcement",
+    "subtitle": [
+      "Visualising the effect on the £/$ after conservative party resignation announcement",
+      "Navy=David Cameron, Red=Theresa May, Turquoise=Borris Johnson, Green=Liz Truss"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/acoops2022/acoops2022.github.io/main/week9HW_complexGBP_Dollar_resignation.csv"
+  },
+  "transform": [{"filter": "datum.GBP_DollarEx_DC && datum.GBP_DollarEx_BJ "}],
+  "height": 300,
+  "width": 300,
+  "layer": [
+    {
+      "mark": {"type": "circle", "color": "navy", "size": 20},
+      "encoding": {
+        "x": {
+          "field": "Days",
+          "type": "quantitative",
+          "title": "days to announcement",
+          "scale": {"domain": [-10, 10]}
+        },
+        "y": {
+          "field": "GBP_DollarEx_DC",
+          "type": "quantitative",
+          "title": "£/$ exchange rate",
+          "scale": {"domain": [1.05, 1.5]}
+        }
+      }
+    },
+    {
+      "mark": {"type": "rule", "color": "black", "strokeDash": [5, 5]},
+      "encoding": {"x": {"value": 150}}
+    },
+    {
+      "mark": {"type": "line", "color": "grey"},
+      "transform": [{"regression": "GBP_DollarEx_DC", "on": "Days"}],
+      "encoding": {
+        "x": {
+          "field": "Days",
+          "type": "quantitative",
+          "scale": {"domain": [-10, 10]}
+        },
+        "y": {"field": "GBP_DollarEx_DC", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {"type": "circle", "color": "red", "size": 20},
+      "encoding": {
+        "x": {
+          "field": "Days",
+          "type": "quantitative",
+          "title": "days to announcement",
+          "scale": {"domain": [-10, 10]}
+        },
+        "y": {"field": "GBP_DollarEx_TM", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "grey"},
+      "transform": [{"regression": "GBP_DollarEx_TM", "on": "Days"}],
+      "encoding": {
+        "x": {
+          "field": "Days",
+          "type": "quantitative",
+          "scale": {"domain": [-10, 10]}
+        },
+        "y": {"field": "GBP_DollarEx_TM", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {"type": "circle", "color": "turquoise", "size": 20},
+      "encoding": {
+        "x": {
+          "field": "Days",
+          "type": "quantitative",
+          "title": "days to announcement",
+          "scale": {"domain": [-10, 10]}
+        },
+        "y": {"field": "GBP_DollarEx_BJ", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "grey"},
+      "transform": [{"regression": "GBP_DollarEx_BJ", "on": "Days"}],
+      "encoding": {
+        "x": {
+          "field": "Days",
+          "type": "quantitative",
+          "scale": {"domain": [-10, 10]}
+        },
+        "y": {"field": "GBP_DollarEx_BJ", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {"type": "circle", "color": "green", "size": 20},
+      "encoding": {
+        "x": {
+          "field": "Days",
+          "type": "quantitative",
+          "title": "days to announcement",
+          "scale": {"domain": [-10, 10]}
+        },
+        "y": {"field": "GBP_DollarEx_LT", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "grey"},
+      "transform": [{"regression": "GBP_DollarEx_LT", "on": "Days"}],
+      "encoding": {
+        "x": {
+          "field": "Days",
+          "type": "quantitative",
+          "scale": {"domain": [-10, 10]}
+        },
+        "y": {"field": "GBP_DollarEx_LT", "type": "quantitative"}
+      }
+    }
+  ],
+  "config": {}
+}
