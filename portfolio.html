@@ -159,6 +159,22 @@
         </p>
         
         
+        <div class="blackbox">
+            <h2>Week 9</h2>
+        </div>
+        
+         <h3>Advanced analytics</h3>
+        
+        <div class="chart" id="Chart22"> </div>
+        <div class="chart" id="Chart23"> </div>
+        <p>This weeks charts looks at economic relationships involved with th Government. The chart on left is a bubble scatter plot that has four data
+            dimensions that looks at the relationship between tax recieved and benefits given as income support per constituency where the size of each 
+            bubble represents population and the colour represents the political affiliaion of each constituency. The data was sourced from the ONS,
+            The Commons Library and wikipedia. The scatter chart on the right looks for any effect of UK Prime Minister resignation announcement on the
+            GBP-Dollar exchange rate using a Regression Discontinuity Design. Data was sourced from the Financial Times.   
+        </p>
+        
+        
       
     </div>
 </body>
@@ -188,6 +204,8 @@
     var myChart19 = "chart19_UKmapconstituencyGE2019.json";
     var myChart20 = "chart20_Budgetdeficit_govExpen.json";
     var myChart21 = "chart21_GDP_Debt_Ratio.json";
+    var myChart21 = "chart22_taxvsincomesupport_bubble.json";
+    var myChart21 = "chart23_£_$exchangeresignation.json";
     
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
@@ -212,6 +230,8 @@
     vegaEmbed('#Chart19', myChart19);
     vegaEmbed('#Chart20', myChart20);
     vegaEmbed('#Chart21', myChart21);
+    vegaEmbed('#Chart22', myChart22);
+    vegaEmbed('#Chart23', myChart23);
 
 
 
