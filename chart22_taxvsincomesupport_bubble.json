@@ -17,9 +17,7 @@
     "url": "https://raw.githubusercontent.com/acoops2022/acoops2022.github.io/main/week9HW_partyvote_meanincome_constituency_Eng_Wales.csv",
     "format": {"type": "csv"}
   },
-  "selection": {
-    "grid": {"type": "interval", "bind": "scales"}
-  },
+  "params": [{"name": "grid", "select": "interval", "bind": "scales"}],
   "mark": {"type": "circle", "color": "green", "opacity": 0.7},
   "height": 300,
   "width": 300,
@@ -41,7 +39,7 @@
       "type": "quantitative",
       "title": "Prison Rate",
       "scale": {"range": [1, 200]},
-      "legend": null,
+      "legend": null
     },
     "color": {
       "scale": {
