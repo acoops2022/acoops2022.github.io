@@ -190,12 +190,12 @@ nav li {
 /* Home Background Image*/
 
 #home-bg {
-    background-image: url('../images/homepagebackground1.jpg.jpg');
+    background-image: url('homepagebackground1.jpg.jpg');
 }
 
 /* CV Background Image*/
 #cv-bg {
-    background-image: url('../images/CVbackground.jpg');
+    background-image: url('CVbackground.jpg');
 }
 
 /* Portfolio Background Color and transtition*/
@@ -209,7 +209,7 @@ nav li {
 /* Project Background Image positioned to top with a 135% size */
 
 #project-bg {
-    background-image: url('../images/bigben.jpg');
+    background-image: url('bigben.jpg');
     background-size: 135%;
     background-position: top;
 }
