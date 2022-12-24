@@ -164,6 +164,17 @@ nav li {
     display: inline-block;
 }
 
+.img {
+    width: 330;
+    height: 160;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+}
+    
+    
+
 /* Week 1, Week 2,.. Box with 30px padding, 20px margin on top and bottom with centered text */
 
 .blackbox {
