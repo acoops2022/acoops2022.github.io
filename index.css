@@ -165,12 +165,16 @@ nav li {
 }
 
 #img1 {
-    width: 230px;
-    height: 150px;
+    width: 330px;
+    height: 250px;
     border-width: 4px;
     border-style: solid;
     border-radius: 10px;
     border-color: black;
+    text-align: centre;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
     
 
