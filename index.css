@@ -11,8 +11,8 @@
 }
 
 /* Body with a 100 vh(viewport height) min-height
-    and set to display flex so we can center the content
-    on the homepage and cv page
+    and set to display flex to center the content
+    on homepage and cv page
 */
 
 body {
@@ -62,7 +62,9 @@ a {
 
 /*  Navigation container on the homepage with a 700px max-width, 
     overflow: hidded prevents the nav bar from collapsing 
-    when it has float child elements
+    when it has float child elements. This makes content
+    within the parent container fit 100% of width and horizontally centres 
+    the content
 */
 
 nav {
@@ -73,7 +75,8 @@ nav {
 }
 
 
-/* Unordered List on homepage*/
+/* Unordered List on homepage. It specifies the type of box an element should generate
+i.e. block-level flex container box that that alligns content along the main axis*/
 
 nav ul {
     display: flex;
@@ -90,7 +93,7 @@ nav li {
     text-align: center;
 }
 
-/* Navigation Buttons with 2px border and 10px border-radius */
+/* Navigation Buttons on hompage with 2px border and 10px border-radius and smoke white background */
 
 .link a {
     text-decoration: none;
@@ -103,7 +106,7 @@ nav li {
     border-radius: 10px;
 }
 
-/* Changes background color of nav buttons when clicked */
+/* Changes background color of nav buttons when clicked to 100% */
 
 .link a:active {
     background-color: rgb(245 245 245 / 100%);
@@ -164,6 +167,7 @@ nav li {
     display: inline-block;
 }
 
+/* sets the appearance of week 10 & 11 images of machine learning*/
 #img1 {
     width: 330px;
     height: 250px;
@@ -263,18 +267,18 @@ nav li {
 
 /* The "choose sector" dropdown appearance with 10px margin, 5px padding 2px black borderd and 10px border-radius*/
 
-select {
+/*select {
     margin: 10px;
     padding: 5px;
     border: 2px solid black;
     border-radius: 10px;
-}
+}*/
 
 /* Adds a 10px margin to the slider of the UK CO2 emissions per sector chart */
 
-input[type="range"] {
+/*input[type="range"] {
     margin: 10px;
-}
+}*/
 
 
 /* These media queries apply different styles depending on the width of the screen */
@@ -322,13 +326,13 @@ the 3x3 chart grid will be set to 2 colums and padding to 20px
         margin: 15px;
     }
 
-    /* Changes the direction of the Menu on the homepage form row to column */
+    /* Changes the direction of the Menu on the homepage from row to column */
 
     ul {
         flex-direction: column;
     }
 
-    /* Sets the menu list items to full width and 10px margin to top and bottom */
+    /* Sets the hompage list items to full width and 10px margin to top and bottom */
 
     nav li {
         margin: 10px 0;
@@ -338,13 +342,13 @@ the 3x3 chart grid will be set to 2 colums and padding to 20px
 
     /* Decreases the margin of the slider of the UK CO2 emissions per sector chart to 5px */
 
-    input[type="range"] {
+   /* input[type="range"] {
         margin: 5px;
-    }
+    }*/
 }
 
 /*  When screen width is 600px or smaller, 
-    the 3x3 chart grid will be set to 1 colums
+    the 3x3 chart grid is set to 1 colums
     and the charts width to auto and 10px margin
 */
 
