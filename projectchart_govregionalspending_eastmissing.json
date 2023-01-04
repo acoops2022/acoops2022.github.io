@@ -1,0 +1,68 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 200,
+  "height": 350,
+  "view": {"stroke": ""},
+  "title": {
+    "text": "Government Regional Spending",
+    "fontSize": 12,
+    "subtitle": ["Billions of £ spent between 2010-2021", ""],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "middle"
+  },
+  "params": [
+    {
+      "name": "yearSelector",
+      "value": 2010,
+      "bind": {
+        "input": "range",
+        "min": 2010,
+        "max": 2021,
+        "step": 1,
+        "name": "Year:"
+      }
+    }
+  ],
+  "data": {
+    "url": "https://raw.githubusercontent.com/acoops2022/acoops2022.github.io/main/project_governmentspendingbyregion%202010_2021.csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {"filter": "datum.Year == yearSelector"},
+    {
+      "lookup": "Region",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/jhellingsdata/jhellingsdata.github.io/main/Data/UK%20Map%20Data/ITL1_2021_20m.geojson",
+          "format": {"property": "features"}
+        },
+        "key": "properties.ITL121NM",
+        "fields": ["properties", "type", "geometry"]
+      }
+    }
+  ],
+  "projection": {"type": "mercator"},
+  "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.5},
+  "encoding": {
+    "tooltip": [
+      {"field": "properties.ITL121NM", "type": "ordinal", "title": "Region"},
+      {
+        "field": "TotalgovexpenBillion",
+        "type": "quantitative",
+        "title": "Government Expenditure £billion"
+      }
+    ],
+    "color": {
+      "field": "TotalgovexpenBillion",
+      "legend": {
+        "title": "£billion",
+        "orient": "right",
+        "direction": "vertical"
+      },
+      "type": "quantitative",
+      "scale": {"scheme": "lightgreyred"}
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 200,
+  "width": 300,
+  "title": {
+    "text": "Growth of Inputs into the NHS",
+    "subtitle": [
+      "Time series of the growth rate of inputs into the NHS during conservative party rule.",
+      "Source-ONS"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/acoops2022/acoops2022.github.io/main/project_NHSexpenditure_input.csv"
+  },
+  "layer": [
+    {
+      "mark": {"type": "bar", "size": 8},
+      "encoding": {
+        "x": {
+          "timeUnit": "year",
+          "field": "year",
+          "type": "temporal",
+          "title": "Year"
+        },
+        "y": {
+          "field": "Growth Rate",
+          "type": "quantitative",
+          "title": "Growth Rate (%)",
+          "scale": {"domain": [-2, 5]}
+        },
+        "color": {"field": "Input Factor"}
+      }
+    },
+    {"mark": "rule", "encoding": {"y": {"value": 143.5}}}
+  ],
+  "config": {}
+}

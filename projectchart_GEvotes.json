@@ -1,0 +1,90 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple donut chart with embedded data.",
+  "title": {
+    "text": "General Election Results UK",
+    "subtitle": [
+      "The perentage of popular votes received by political parties after general elcetions between 2005-2019",
+      "Source - Wikipedia"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "middle",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/acoops2022/acoops2022.github.io/main/project_GE2005_2019_results.csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {"filter": {"selection": "YearSelector"}},
+    {
+      "filter": {
+        "field": "Year",
+        "oneOf": ["2005", "2010", "2015", "2017", "2019"]
+      }
+    }
+  ],
+  "selection": {
+    "YearSelector": {
+      "type": "single",
+      "fields": ["Year"],
+      "bind": {
+        "input": "select",
+        "options": ["null", "2005", "2010", "2015", "2017", "2019"],
+        "name": "General Election Year"
+      }
+    }
+  },
+  "mark": {"type": "arc", "innerRadius": 50},
+  "encoding": {
+    "theta": {"field": "Popular vote percentage", "type": "quantitative"},
+    "color": {
+      "scale": {
+        "range": [
+          "#2f9df5",
+          "red",
+          "yellow",
+          "#60ba6c",
+          "orange",
+          "#157576",
+          "grey",
+          "purple",
+          "#c26d43",
+          "#8781bc",
+          "#d5ca60",
+          "#f571a5",
+          "#ab0749"
+        ],
+        "domain": [
+          "Conservative",
+          "Labour",
+          "Scottish National",
+          "Green",
+          "Liberal Democrat",
+          "Plaid Cymru",
+          "Others",
+          "UK Independence",
+          "Democratic Unionist",
+          "Sinn Fein",
+          "UUP",
+          "SDLP",
+          "Brexit Party"
+        ]
+      },
+      "field": "Party",
+      "type": "nominal",
+      "title": "political party"
+    },
+    "tooltip": [
+      {"field": "Year", "type": "ordinal"},
+      {
+        "field": "Popular vote percentage",
+        "type": "quantitative",
+        "title": "Popular Vote %"
+      },
+      {"field": "Party", "type": "ordinal", "title": "Political Party"}
+    ]
+  },
+  "config": {}
+}

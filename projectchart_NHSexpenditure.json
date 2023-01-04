@@ -1,0 +1,56 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 200,
+  "width": 300,
+  "title": {
+    "text": "NHS Government Expenditure",
+    "subtitle": [
+      "Time series of the Conservative expenditure on the NHS.",
+      "Source-ONS"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/acoops2022/acoops2022.github.io/main/project_NHSexpenditure.csv"
+  },
+  "layer": [
+    {
+      "mark": {"type": "line", "color": "black", "opacity": 0.7},
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal", "title": "Year"},
+        "y": {
+          "field": "Expenditure/GDP",
+          "type": "quantitative",
+          "axis": {
+            "title": "Expenditure/GDP (%)",
+            "orient": "left",
+            "titleColor": "black",
+            "grid": false
+          },
+          "scale": {"domain": [0, 0.2]}
+        }
+      }
+    },
+    {
+      "mark": {"type": "bar", "size": 8, "color": "navy"},
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal", "title": "Year"},
+        "y": {
+          "field": "Nominal NHS expenditure billion",
+          "type": "quantitative",
+          "axis": {
+            "title": "Nominal NHS expenditure (£billion)",
+            "orient": "right",
+            "titleColor": "navy"
+          },
+          "scale": {"domain": [0, 500]}
+        }
+      }
+    }
+  ],
+  "resolve": {"scale": {"y": "independent"}},
+  "config": {}
+}

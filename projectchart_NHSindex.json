@@ -1,0 +1,116 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 200,
+  "width": 300,
+  "title": {
+    "text": "NHS Productivity time-series",
+    "subtitle": [
+      "Time series of NHS productivity. Inputs, Outputs and Productivity are indexed by 1995 values",
+      "Blue=Quality Adjusted indexed output, Grey=indexed inputs, Green= QA indexed productivity",
+      "Source-ONS"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/acoops2022/acoops2022.github.io/main/project_NHSexpenditure_index.csv"
+  },
+  "layer": [
+    {
+      "mark": {"type": "line", "color": "navy", "opacity": 0.7},
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal", "title": "Year"},
+        "y": {
+          "field": "QA Output indexed",
+          "type": "quantitative",
+          "axis": {
+            "title": "Indexed input, output & QA productivity",
+            "orient": "left",
+            "titleColor": "#a5d8a2",
+            "grid": false
+          },
+          "scale": {"domain": [-100, 300]}
+        },
+        "tooltip": {
+          "field": "QA Output indexed",
+          "type": "quantitative",
+          "title": "QA Output indexed"
+        }
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "grey", "opacity": 0.7},
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal", "title": "Year"},
+        "y": {
+          "field": "Input indexed",
+          "type": "quantitative",
+          "axis": {
+            "title": "Indexed input, output & QA productivity",
+            "orient": "left",
+            "titleColor": "#a5d8a2",
+            "grid": false
+          },
+          "scale": {"domain": [-100, 300]}
+        },
+        "tooltip": {
+          "field": "Input indexed",
+          "type": "quantitative",
+          "title": "Input indexed"
+        }
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "green", "opacity": 0.7},
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal", "title": "Year"},
+        "y": {
+          "field": "QA productivity indexed",
+          "type": "quantitative",
+          "axis": {
+            "title": "Indexed input, output & QA productivity",
+            "orient": "left",
+            "titleColor": "#a5d8a2",
+            "grid": false
+          },
+          "scale": {"domain": [-100, 300]}
+        },
+        "tooltip": {
+          "field": "QA productivity indexed",
+          "type": "quantitative",
+          "title": "QA productivity indexed"
+        }
+      }
+    },
+    {
+      "mark": {"type": "bar", "size": 8, "color": "orange"},
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal", "title": "Year"},
+        "y": {
+          "field": "growth rate of productivity QA",
+          "type": "quantitative",
+          "axis": {
+            "title": "QA productivity growth rate (%)",
+            "orient": "right",
+            "titleColor": "orange"
+          },
+          "scale": {"domain": [-10, 30]}
+        },
+        "tooltip": {
+          "field": "growth rate of productivity QA",
+          "type": "quantitative",
+          "title": "GDP growth rate"
+        }
+      }
+    },
+    {"mark": "rule", "encoding": {"y": {"value": 150.5}}},
+    {
+      "mark": "rule",
+      "encoding": {"x": {"value": 186.5}, "strokeDash": {"value": [4, 4]}}
+    }
+  ],
+  "resolve": {"scale": {"y": "independent"}},
+  "config": {}
+}
