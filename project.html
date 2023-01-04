@@ -25,19 +25,31 @@
     <div class="myWeek">
         <h1>Project</h1>
 
-        <h3>Current level of inflation</h3>
-        <div class="chart" id="Chart1"></div>
-        <p>The first chart looks at the percentage change in the Consumer Price Index (CPI) over a 12 month period.</p>
+        <h3>Aim</h3>
+        
+        <p>This project aims to evaluate some common economic objectives and promises made by the conservative party in their 2010, 2015 and 2019 
+            manifestos using data. Using python, I read the three manifestos and counted the most frequent words in ascending order click here to 
+            see my google collab. After sifting through article words, I found the following: ‘tax’ appeared 292 times, ‘business’ 188 times, ‘invest’ 
+            182 times, ‘economy’ 142 times and ‘NHS’ 118 times. After, reading the manifestos I have decided to test the commitments on the following 
+            categories. Macroeconomic promises on reducing the budget deficit, improving GDP growth and increasing employment. Investment promises 
+            to the improve the NHS redistribute around the UK. This project aims to take a neutral political stance and purely evaluate whether the 
+            conservative party achieved their pledges on a yes or no basis. </p>
 
 
-        <h3>Inflation per sector</h3>
+        <h3>12 Years of the Conservative party</h3>
+        <div class="chart" id="Chart1"> </div>
+        <p>This first chart provides an overview of the last five general election results. It presents the percentage of the popular vote each party 
+            received after general elections. In 2010 the UK had a coalition government with David Cameron as the leader of the Conservative party and 
+            Nick Clegg as the leader of the Liberal Democrats. After the 2015 general election, the Conservative party has remained in power with a 
+            number of party leadership changes. After losing the EU referendum David Cameron resigned on 24th June 2016, being the last Conservative PM 
+            to serve a full term to this date. Theresa May, Borris Johnson, Liz Truss and Rishi Sunak have all served as PM under the Conservative party 
+            since. The data for this chart was scraped from Wikipedia and collated using python. To see how click  <a
+            href="https://colab.research.google.com/drive/1uGcw2IpZmR8nw8vro6CgH0MWjINlzUJE" id="link1"> here</a>. </p>
+
+
+
+        <h3>Taxation</h3>
         <div class="chart" id="Chart2"> </div>
-        <p>The second chart looks at the percdentage change in prices for each sector of the economy</p>
-
-
-
-        <h3>World Food Industry CO2 Emissions</h3>
-        <div class="chart" id="Chart3"> </div>
         <p>The third chart looks at the amount of CO2 greenhouse gas emissions released in different food industries</p>
 
         <h3>UK CO2 emissions per sector</h3>
@@ -115,8 +127,8 @@
 
 <script>
     //Define charts:
-    var myChart1 = "/charts/chart1_Inflation.json";
-    var myChart2 = "/charts/chart2_InflationBase.json";
+    var myChart1 = "projectchart_GEvotes.json";
+    var myChart2 = "projectchart_taxation.json";
     var myChart3 = "/charts/chart3_FoodCO2.json";
     var myChart4 = "/charts/chart4_CO2bysector.json";
     var myChart5 = "/charts/chart5_IMFLendingOutstanding_clean.json";
