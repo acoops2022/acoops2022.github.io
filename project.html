@@ -77,6 +77,7 @@
             <div class="column" class="chart" id="Chart5"></div>
             <div class="column" class="chart" id="Chart6"></div>
         </div>
+        
         <p>The fourth chart looks at the amount of CO2 greenhouse gas emissions released in different UK industries</p>
 
 
@@ -89,10 +90,10 @@
             unsubstantiated promise.</p>
         
         <p>The data used for this chart was sourced from the ONS. Click <a
-            href="https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/articles/countryandregionalpublicsectorfinances/financialyearending2021" id="link1"> here</a></p>
+            href="https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/articles/countryandregionalpublicsectorfinances/financialyearending2021" id="link1"> here</a> </p>
         
         <p>The Geojson file was sourced from <a
-            href="https://github.com/RDeconomist/RDeconomist.github.io/blob/main/charts/maps/UK1.json2" id="link1"> here</a></p>
+            href="https://github.com/RDeconomist/RDeconomist.github.io/blob/main/charts/maps/UK1.json2" id="link1"> here</a> </p>
 
         <h3>IMF lending Outstanding GDP adjusted</h3>
 
@@ -101,18 +102,6 @@
             chart is
             adjusted this way I conclude that 1984-1985 were the most risky years because they have the highest IMF loan
             outstanding as a percentage of world GDP. </p>
-
-
-        <h3>C02 emissions of USA and China (time series)</h3>
-
-        <div class="chart" id="Chart7"> </div>
-        <div class="chart" id="Chart7_5"> </div>
-        <p>The first chart shows how C02 emissions from the USA and China have evolved over time and depicts the year
-            China
-            overtook USA. The Second graph uses the same data but visualsies it in a stacked area chart with tooltips
-            which
-            allows for prices observation of values and helps visualise the volume of C02 released by both countries.
-        </p>
 
 
         <h3>UK Polls</h3>
@@ -138,8 +127,6 @@
     var myChart4 = "projectchart_NHSindex.json";
     var myChart5 = "projectchart_NHSinput.json";
     var myChart6 = "projectchart_NHSoutput.json";
-    var myChart7 = "/charts/chart7_USAChinaC02.json";
-    var myChart7_5 = "/charts/chart7.5_USAChinaC02.json";
     var myChart8 = "projectchart_govregionalspending.json";
     var myChart9 = "/charts/chart9_totalbalancetrade.json";
 
@@ -150,8 +137,6 @@
     vegaEmbed('#Chart4', myChart4);
     vegaEmbed('#Chart5', myChart5);
     vegaEmbed('#Chart6', myChart6);
-    vegaEmbed('#Chart7', myChart7);
-    vegaEmbed('#Chart7_5', myChart7_5);
     vegaEmbed('#Chart8', myChart8);
     vegaEmbed('#Chart9', myChart9);
   
