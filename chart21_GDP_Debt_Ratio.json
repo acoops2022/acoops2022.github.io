@@ -4,7 +4,7 @@
   "width": 300,
   "title": {
     "text": "Austerity in the UK?",
-    "subtitle": "Time series of Nominal debt, GDP and debt-to-GDP ratio. Source - ONS",
+    "subtitle": "Time series of Nominal Debt=blue, GDP=orange and debt-to-GDP-ratio=black. Source - ONS",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
