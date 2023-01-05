@@ -240,11 +240,19 @@ nav li {
     width: 100%;
 }
 
-/* 3x3 Chart grid with 3 colums, 30px gap and padding*/
+/* 3x3 Chart grid with 3 columns, 30px gap and padding*/
 
 .chart-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 30px;
+}
+
+/* 2x2 Chart grid with 2 columns, 30px gap and padding*/
+.chart-grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
     padding: 30px;
 }
