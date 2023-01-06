@@ -28,24 +28,20 @@
 
         <h3>Aim</h3>
         
-        <p>This project aims to evaluate some common economic objectives and promises made by the conservative party in their 2010, 2015 and 2019 
-            manifestos using data. Using python, I read the three manifestos and counted the most frequent words in ascending order. click <a
-            href="https://colab.research.google.com/drive/14PdIr2Z0wyArIY49JfB_4yXq_rnCC8J1" id="link1"> here</a> to 
-            see my google collab. After sifting through article words, I found the following: ‘tax’ appeared 292 times, ‘business’ 188 times, ‘invest’ 
-            182 times, ‘economy’ 142 times and ‘NHS’ 118 times. After, reading the manifestos I have decided to test the commitments on the following 
-            categories. Macroeconomic promises on reducing the budget deficit, improving GDP growth and increasing employment. Investment promises 
-            to the improve the NHS redistribute around the UK. This project aims to take a neutral political stance and purely evaluate whether the 
-            conservative party achieved their pledges on a yes or no basis. </p>
+        <p>This project aims to evaluate some common economic promises made by the conservative party in their 2010, 2015 and 2019 manifestos using data. 
+            Using python, I counted the most frequent words in the manifestos in ascending order. Click <a
+            href="https://colab.research.google.com/drive/14PdIr2Z0wyArIY49JfB_4yXq_rnCC8J1" id="link1"> here</a> to see my google collab. After reading the 
+            manifestos I decided to test the commitments on the following categories. Macroeconomic promises on reducing the budget deficit, taxation, 
+            improving GDP growth and increasing employment. Investment promises to the NHS and redistribute investment around the UK. The project aims to
+            take a neutral political stance and evaluate whether the conservative party achieved their pledges using data.  </p>
 
 
         <h3>12 Years of the Conservative party</h3>
         <div class="chart" id="Chart1"> </div>
-        <p>This first chart provides an overview of the last five general election results. It presents the percentage of the popular vote each party 
-            received after general elections. In 2010 the UK had a coalition government with David Cameron as the leader of the Conservative party and 
-            Nick Clegg as the leader of the Liberal Democrats. After the 2015 general election, the Conservative party has remained in power with a 
-            number of party leadership changes. After losing the EU referendum David Cameron resigned on 24th June 2016, being the last Conservative PM 
-            to serve a full term to this date. Theresa May, Borris Johnson, Liz Truss and Rishi Sunak have all served as PM under the Conservative party 
-            since. The data for this chart was scraped from Wikipedia and collated using python. To see how click  <a
+        <p>This chart provides an overview of the last five general election results. It visualises the percentage of the popular vote each party 
+            received. In 2010 the UK had a coalition government with David Cameron as the leader of the Conservative party and Nick Clegg as the leader 
+            of the Liberal Democrats. After the 2015 general election, the Conservative party remained in power with several party leadership changes 
+            after David Cameron resigned. The data for this chart was scraped from Wikipedia using python. To see how click <a
             href="https://colab.research.google.com/drive/1uGcw2IpZmR8nw8vro6CgH0MWjINlzUJE" id="link1"> here</a>. </p>
 
 
@@ -56,36 +52,39 @@
             <div class="chart" id="Chart6"> </div>
         </div>
         
-        <p>A major commitment of the Conservative manifestos was to improve Britain’s international tax competitiveness and not raise VAT and National Insurance tax. 
-            The chart above shows the corporation tax cuts the Conservative party introduced and its effect on corporation tax received by HMRC. The graph demonstrates
-            the Conservative party’s policy of trickle-down economics and the Laffre curve (1974) because by lowering corporation tax they encouraged entrepreneurship 
-            and increased tax revenue. Therefore, they achieved one aspect of their taxation pledges. </p>
+        <p>A major commitment of the Conservative manifestos was to improve Britain’s international tax competitiveness, not raise VAT and National 
+            Insurance tax and reduce the budget deficit. The left chart shows the corporation tax cuts the Conservative party introduced and its effect 
+            on corporation tax it received. This graph demonstrates the Conservative party’s policy of trickle-down economics and Arthur Laffre’s theory 
+            because lowering corporation tax encouraged investment and increased tax revenue. Thus, achieving one aspect of the taxation pledges. The 
+            right chart shows the conservative government successfully reducing the budget deficit while overall nominal debt increased at the same rate 
+            as GDP. The 2020 COVID-19 pandemic undermined these efforts. </p>
         
-        <p>However, the UK tax system is complex and raising or lowering one rate impacts the benefits and incentives of others. Furthermore, analysis became too complex 
-            to visualise when looking at data for VAT and NI rate changes due to the effective rate depending on many variables. It should be noted that VAT was 
-            raised from 17.5% to 20% in Jan 2011 but during COVID-19 was lowered to 5% and then raised to 12.5% for certain sectors. NI rate was also raised and then 
-            reversed during 2022.</p>
-        
-        <p>I initially tried to source the data through Trading Economics API, however it required an expensive subscription for historical data. Therefore, I copied 
-            the data into a csv file along with data from gov.uk.</p>
+        <p>Analysis of VAT and NIC became too complex to visualise due to effective rates depending on many variables and irregular policy changes 
+            between 2020-2022. I initially tried to source the data through Trading Economics API, however it required an expensive subscription for 
+            historical data. Therefore, I copied the data into a csv file along with data from gov.uk.</p>
         
         <p>Trading economics data click <a
             href="https://tradingeconomics.com/united-kingdom/corporate-tax-rate#:~:text=Corporate%20Tax%20Rate%20in%20the%20United%20Kingdom%20averaged%2030.40%20percent,of%2019%20percent%20in%202017" id="link1"> here.</a></p>
         <p>Gov.uk data click <a
             href="https://www.gov.uk/government/statistics/corporation-tax-statistics-2022" id="link1"> here.</a></p>
+        <p>ONS data source <a
+            href="https://www.ons.gov.uk/economy/grossdomesticproductgdp/timeseries/ybha/pn2" id="link1"> here</a>, <a
+            href="https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicspending/bulletins/ukgovernmentdebtanddeficitforeurostatmaast/june2021" id="link1"> here</a> and
+            <a
+            href="https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/dzlt/pusf" id="link1"> here</a></p>
         
         <h3>Labour Market and GDP growth</h3>
         
         <div class="chart" id="Chart7"> </div>
         
-        <p>The creation of jobs and increased employment was an essential part of all three manifestos and was usually combined with the promise of increasing GDP. 
-            The chart shows four variables of the labour market that all suggest the conservative party upheld their promises to some degree except for in 2020 due 
-            to COVID-19. Data on the number of jobs created through government investment is not available making precise fact checking impossible.    </p>
+        <p>The creation of jobs and increased employment was an essential part of all three manifestos and was often mentioned in unison of increasing GDP. 
+            The chart shows four variables of the labour market and GDP growth that all suggest the conservative party upheld their promises to some degree
+            except for in 2020. Data on the number of jobs created through government investment is not available making precise fact-checking impossible.</p>
         
-        <p>Initially, I attempted to use multiple ONS APIs to link timeseries data between the ONS and Vega-lite so that the chart would update. However, it proved 
-            too complicated and time consuming so I resorted to downloading the data sets from the ONS and cleaning it in excel. </p>
+        <p>I attempted to use multiple ONS APIs to link timeseries data between the ONS and Vega-lite so that the chart would update. However, it proved too 
+            complicated and time consuming so I resorted to downloading the data sets from the ONS and cleaning it in excel.</p>
         
-        <p>To go to the ONS data source click <a
+        <p>ONS data source click <a
             href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/may2022" id="link1"> here.</a> </p>
         
 
@@ -95,9 +94,31 @@
             <div class="column" class="chart" id="Chart4"></div>
         </div>
         
-        <div class="column" class="chart" id="Chart5"></div>
+        <div class="chart" id="Chart5"></div>
         
-        <p>The fourth chart looks at the amount of CO2 greenhouse gas emissions released in different UK industries</p>
+        <p>All manifestos promised increased NHS spending. These three charts look at whether promises were upheld and whether quality and productivity of 
+            the NHS has been maintained.</p>
+        
+        <p>The first chart shows NHS spending has increased consistently since 2010. Expenditure as a percentage of GDP has remained constant until 2020.</p>
+        
+        <p>The second chart is a time series of NHS productivity and productivity growth rate. Productivity is calculated by dividing Outputs by its Inputs. 
+            Outputs and Inputs are indexed at 1995 values. Overall, the graph shows that NHS productivity has continued to grow at a constant rate. </p>
+        
+        <p>The third chart visualise the growth rate of the components of inputs and outputs of the NHS. The most difficult part of visualising this was 
+            cleaning the data set and converting it into long form data.</p>
+        
+        <p>Overall, the government met its promises to increase spending on the NHS. However, the 2019 manifesto promises are undetermined yet but information 
+            on projections can be found <a
+            href="https://www.gov.uk/government/publications/50000-nurses-programme-delivery-update/50000-nurses-programme-delivery-update" id="link1"> here.</a>.</p>
+        
+        <p>Data for chart 1 click<a
+            href="https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthcaresystem/bulletins/healthcareexpenditureukhealthaccountsprovisionalestimates/2021" id="link1"> here.</a>.</p>
+        
+        <p>Data for chart 2 click<a
+            href="https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthcaresystem/datasets/publicserviceproductivityestimateshealthcareuk" id="link1"> here.</a>.</p>
+        
+        <p>Data for chart 3 click<a
+            href="https://www.ons.gov.uk/economy/economicoutputandproductivity/publicservicesproductivity/articles/publicservicesproductivityestimateshealthcare/financialyearending2020" id="link1"> here.</a>.</p>
 
 
         <h3>Levelling up Britain</h3>
@@ -116,7 +137,11 @@
         
         <h3>Conclusion:</h3>
         
-        <p></p>
+        <p>This project was never going to be comprehensive evaluation of the Conservative party’s Economic legacy. Its true aim is to demonstrate the 
+            importance of being able to hold your Government’s promises to account. That is to be able to measure the effect of policies and clearly 
+            communicate it to the public in an unbiased way. The project looked at macroeconomic data to access promises in Conservative manifestos. The 
+            data suggests the government was relatively faithful in its tax, employment and NHS promises but not faithful to its promises on tackling 
+            inequality and levelling up Britain. </p>
 
     </div>
 </body>
