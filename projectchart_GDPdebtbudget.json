@@ -1,0 +1,87 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 200,
+  "width": 300,
+  "title": {
+    "text": "Austerity in the UK?",
+    "subtitle": [
+      "Time series of Nominal debt=blue, GDP=orange and debt-to-GDP-ratio=black. Source - ONS"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/acoops2022/acoops2022.github.io/main/UK_debt_gdp_debtgdpratio.csv"
+  },
+  "layer": [
+    {
+      "mark": {"type": "line", "color": "orange"},
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal", "title": "Year"},
+        "y": {
+          "field": "GDP_million",
+          "type": "quantitative",
+          "axis": {"title": "£ million", "orient": "left"},
+          "scale": {"domain": [-25000, 2500000]}
+        }
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "blue"},
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal"},
+        "y": {
+          "field": "Debt_million",
+          "type": "quantitative",
+          "axis": {"title": "£ million", "orient": "left"},
+          "scale": {"domain": [-25000, 2500000]}
+        }
+      }
+    },
+    {
+      "mark": {"type": "bar", "color": "red"},
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal"},
+        "y": {
+          "field": "deficit",
+          "type": "quantitative",
+          "axis": {"title": "£ million", "orient": "left"},
+          "scale": {"domain": [-25000, 2500000]}
+        }
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "black"},
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal"},
+        "y": {
+          "field": "Debt/GDP",
+          "type": "quantitative",
+          "axis": {"title": "Debt/GDP ratio", "orient": "right"},
+          "scale": {"domain": [-2.5, 250]}
+        }
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "grey", "opacity": 0.7},
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal"},
+        "y": {
+          "field": "deficit/GDP",
+          "type": "quantitative",
+          "axis": {"title": "Debt/GDP ratio", "orient": "right"},
+          "scale": {"domain": [-2.5, 250]}
+        }
+      }
+    },
+    {"mark": "rule", "encoding": {"y": {"value": 198.5}}},
+    {
+      "mark": "rule",
+      "encoding": {"x": {"value": 143.5}, "strokeDash": {"value": [4, 4]}}
+    }
+  ],
+  "resolve": {"scale": {"y": "independent"}},
+  "config": {}
+}

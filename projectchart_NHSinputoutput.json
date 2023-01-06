@@ -1,0 +1,97 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 200,
+  "width": 300,
+  "title": {
+    "text": "Growth of Outputs and Inputs of the NHS",
+    "subtitle": [
+      "Time series of the growth rate of output from the NHS during conservative party rule.",
+      "[Blue= Total growth rate, Green= Quality Adjusted output growth rate]",
+      "HCHS =Hospital and Community Health Service, GP= General Practioner",
+      "Source-ONS"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/acoops2022/acoops2022.github.io/main/project_NHSexpenditure_output.csv"
+  },
+  "hconcat": [
+    {
+      "layer": [
+        {
+          "mark": {
+            "type": "bar",
+            "size": 8,
+            "cornerRadiusTopLeft": 3,
+            "cornerRadiusTopRight": 3
+          },
+          "encoding": {
+            "x": {
+              "timeUnit": "year",
+              "field": "year",
+              "type": "temporal",
+              "title": "Year"
+            },
+            "y": {
+              "field": "GrowthRateO",
+              "type": "quantitative",
+              "scale": {"domain": [-2, 6]},
+              "title": "Growth Rate Output (%)"
+            },
+            "color": {"field": "Output factor"}
+          }
+        },
+        {"mark": "rule", "encoding": {"y": {"value": 150.5}}},
+        {
+          "mark": {"type": "line", "color": "blue", "opacity": 0.7},
+          "encoding": {
+            "x": {"field": "Year", "type": "temporal"},
+            "y": {
+              "field": "Output growth rate total",
+              "type": "quantitative",
+              "title": "Growth Rate Output (%)"
+            }
+          }
+        },
+        {
+          "mark": {"type": "line", "color": "green", "opacity": 0.7},
+          "encoding": {
+            "x": {"field": "Year", "type": "temporal"},
+            "y": {
+              "field": "Output growth rate QA",
+              "type": "quantitative",
+              "title": "Growth Rate Output (%)"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "mark": {"type": "bar", "size": 8},
+          "encoding": {
+            "x": {
+              "timeUnit": "year",
+              "field": "year",
+              "type": "temporal",
+              "title": "Year"
+            },
+            "y": {
+              "field": "Growth RateI",
+              "type": "quantitative",
+              "title": "Growth Rate Input (%)",
+              "scale": {"domain": [-2, 6]}
+            },
+            "color": {"field": "Input Factor"}
+          }
+        },
+        {"mark": "rule", "encoding": {"y": {"value": 150.5}}}
+      ]
+    }
+  ],
+  "config": {}
+}
