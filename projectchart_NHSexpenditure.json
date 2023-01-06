@@ -5,7 +5,7 @@
   "title": {
     "text": "NHS Government Expenditure",
     "subtitle": [
-      "Time series of the Conservative expenditure on the NHS.",
+      "Time series of the government expenditure (adjusted for inflation) on the NHS.",
       "Source-ONS"
     ],
     "subtitleFontStyle": "italic",
