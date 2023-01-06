@@ -50,14 +50,18 @@
 
 
 
-        <h3>Taxation</h3>
-        <div class="chart" id="Chart2"> </div>
+        <h3>Taxation and Debt</h3>
+        <div class="chart-grid2">
+            <div class="chart" id="Chart2"> </div>
+            <div class="chart" id="Chart6"> </div>
+        </div>
+        
         <p>A major commitment of the Conservative manifestos was to improve Britain’s international tax competitiveness and not raise VAT and National Insurance tax. 
             The chart above shows the corporation tax cuts the Conservative party introduced and its effect on corporation tax received by HMRC. The graph demonstrates
             the Conservative party’s policy of trickle-down economics and the Laffre curve (1974) because by lowering corporation tax they encouraged entrepreneurship 
             and increased tax revenue. Therefore, they achieved one aspect of their taxation pledges. </p>
         
-        <p>However, UK tax system is complex and raising or lowering one rate impacts the benefits and incentives of others. Furthermore, analysis became too complex 
+        <p>However, the UK tax system is complex and raising or lowering one rate impacts the benefits and incentives of others. Furthermore, analysis became too complex 
             to visualise when looking at data for VAT and NI rate changes due to the effective rate depending on many variables. It should be noted that VAT was 
             raised from 17.5% to 20% in Jan 2011 but during COVID-19 was lowered to 5% and then raised to 12.5% for certain sectors. NI rate was also raised and then 
             reversed during 2022.</p>
@@ -69,13 +73,27 @@
             href="https://tradingeconomics.com/united-kingdom/corporate-tax-rate#:~:text=Corporate%20Tax%20Rate%20in%20the%20United%20Kingdom%20averaged%2030.40%20percent,of%2019%20percent%20in%202017" id="link1"> here.</a></p>
         <p>Gov.uk data click <a
             href="https://www.gov.uk/government/statistics/corporation-tax-statistics-2022" id="link1"> here.</a></p>
+        
+        <h3>Labour Market and GDP growth</h3>
+        
+        <div class="chart" id="Chart7"> </div>
+        
+        <p>The creation of jobs and increased employment was an essential part of all three manifestos and was usually combined with the promise of increasing GDP. 
+            The chart shows four variables of the labour market that all suggest the conservative party upheld their promises to some degree except for in 2020 due 
+            to COVID-19. Data on the number of jobs created through government investment is not available making precise fact checking impossible.    </p>
+        
+        <p>Initially, I attempted to use multiple ONS APIs to link timeseries data between the ONS and Vega-lite so that the chart would update. However, it proved 
+            too complicated and time consuming so I resorted to downloading the data sets from the ONS and cleaning it in excel. </p>
+        
+        <p>To go to the ONS data source click <a
+            href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/may2022" id="link1"> here.</a> </p>
+        
 
         <h3>NHS expenditure and productivity</h3>
         <div class="chart-grid2">
             <div class="column" class="chart" id="Chart3"></div>
             <div class="column" class="chart" id="Chart4"></div>
             <div class="column" class="chart" id="Chart5"></div>
-            <div class="column" class="chart" id="Chart6"></div>
         </div>
         
         <p>The fourth chart looks at the amount of CO2 greenhouse gas emissions released in different UK industries</p>
@@ -125,10 +143,10 @@
     var myChart2 = "projectchart_taxation.json";
     var myChart3 = "projectchart_NHSexpenditure.json";
     var myChart4 = "projectchart_NHSindex.json";
-    var myChart5 = "projectchart_NHSinput.json";
-    var myChart6 = "projectchart_NHSoutput.json";
+    var myChart5 = "projectchart_NHSinputoutput.json";
+    var myChart6 = "projectchart_GDPdebtbudget.json";
+    var myChart7 = "projectchart_labourmarketGDP.json";
     var myChart8 = "projectchart_govregionalspending.json";
-    var myChart9 = "/charts/chart9_totalbalancetrade.json";
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
@@ -137,8 +155,8 @@
     vegaEmbed('#Chart4', myChart4);
     vegaEmbed('#Chart5', myChart5);
     vegaEmbed('#Chart6', myChart6);
+    vegaEmbed('#Chart7', myChart7);
     vegaEmbed('#Chart8', myChart8);
-    vegaEmbed('#Chart9', myChart9);
   
 </script>
 
