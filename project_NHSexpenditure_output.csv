@@ -1,0 +1,31 @@
+﻿year,Output factor,GrowthRateO,Input Factor,Growth RateI,Year,Output growth rate total,Output growth rate QA
+2010,HCHS ,1.8,Labour,0.6,2010,2.1,3
+2011,HCHS ,0.8,Labour,-0.5,2011,2.3,3.2
+2012,HCHS ,2.6,Labour,-0.3,2012,3.4,3.8
+2013,HCHS ,3.1,Labour,-0.1,2013,4.1,5
+2014,HCHS ,3.1,Labour,1,2014,4.3,5.3
+2015,HCHS ,2.1,Labour,0.8,2015,4,4.7
+2016,HCHS ,2,Labour,1.5,2016,2.6,3.3
+2017,HCHS ,1.5,Labour,1.1,2017,1.9,2.5
+2018,HCHS ,0.8,Labour,1.3,2018,1.6,2.2
+2019,HCHS ,0.1,Labour,1.6,2019,0.5,0.9
+2010,GP prescribing,-0.2,Goods and Services ,0.6,,,
+2011,GP prescribing,0.5,Goods and Services ,1.2,,,
+2012,GP prescribing,0.3,Goods and Services ,2.2,,,
+2013,GP prescribing,0.1,Goods and Services ,1.1,,,
+2014,GP prescribing,0,Goods and Services ,2.9,,,
+2015,GP prescribing,-0.2,Goods and Services ,3.3,,,
+2016,GP prescribing,0.2,Goods and Services ,-0.3,,,
+2017,GP prescribing,0.1,Goods and Services ,0.6,,,
+2018,GP prescribing,0.2,Goods and Services ,1.3,,,
+2019,GP prescribing,-0.1,Goods and Services ,1.3,,,
+2010,Unmeasured Non-NHS ,0.5,Capital Consumption ,0.1,,,
+2011,Unmeasured Non-NHS ,1,Capital Consumption ,0.1,,,
+2012,Unmeasured Non-NHS ,0.5,Capital Consumption ,-0.1,,,
+2013,Unmeasured Non-NHS ,0.9,Capital Consumption ,-0.1,,,
+2014,Unmeasured Non-NHS ,1.2,Capital Consumption ,0,,,
+2015,Unmeasured Non-NHS ,2.1,Capital Consumption ,0.2,,,
+2016,Unmeasured Non-NHS ,0.4,Capital Consumption ,0.1,,,
+2017,Unmeasured Non-NHS ,0.3,Capital Consumption ,0,,,
+2018,Unmeasured Non-NHS ,0.6,Capital Consumption ,0,,,
+2019,Unmeasured Non-NHS ,0.5,Capital Consumption ,0,,,
