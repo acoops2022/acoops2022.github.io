@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A simple donut chart with embedded data.",
+
   "title": {
     "text": "General Election Results UK",
     "subtitle": [
@@ -12,6 +12,9 @@
     "anchor": "middle",
     "color": "black"
   },
+  "height": 300,
+  "width": 350,
+
   "data": {
     "url": "https://raw.githubusercontent.com/acoops2022/acoops2022.github.io/main/project_GE2005_2019_results.csv",
     "format": {"type": "csv"}
