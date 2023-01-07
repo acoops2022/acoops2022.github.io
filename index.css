@@ -273,21 +273,6 @@ nav li {
     background-color: white;
 }
 
-/* The "choose sector" dropdown appearance with 10px margin, 5px padding 2px black borderd and 10px border-radius*/
-
-/*select {
-    margin: 10px;
-    padding: 5px;
-    border: 2px solid black;
-    border-radius: 10px;
-}*/
-
-/* Adds a 10px margin to the slider of the UK CO2 emissions per sector chart */
-
-/*input[type="range"] {
-    margin: 10px;
-}*/
-
 
 /* These media queries apply different styles depending on the width of the screen */
 
@@ -347,12 +332,6 @@ the 3x3 chart grid will be set to 2 colums and padding to 20px
         width: 100%;
     }
 
-
-    /* Decreases the margin of the slider of the UK CO2 emissions per sector chart to 5px */
-
-   /* input[type="range"] {
-        margin: 5px;
-    }*/
 }
 
 /*  When screen width is 600px or smaller, 
