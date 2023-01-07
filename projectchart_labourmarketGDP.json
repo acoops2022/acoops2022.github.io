@@ -1,7 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "height": 200,
-  "width": 300,
   "title": {
     "text": "Employment, GDP Growth, Inactivity and Pay-rolled Employees",
     "subtitle": [
