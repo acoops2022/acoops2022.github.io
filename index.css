@@ -284,8 +284,8 @@ nav li {
     }
 }
 
-/* When screen width is 768px or smaller, 
-the 3x3 chart grid will be set to 2 colums and padding to 20px
+/* When screen width is 768px or smaller: 
+the 3x3 chart grid will be set to 2 colums and padding to 20px, font-size for h1, h2, h3, p will be reduced
 */
 
 @media only screen and (max-width: 768px) {
