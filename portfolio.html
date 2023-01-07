@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
+<!-- head contains all the meta data and information not visible to the user-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,11 +24,13 @@
     
 </head>
 
+<!-- body calls upon the CSS style e.g. fonts, size and padding of text. The id calls upon the style in the css file e.g. the plum background colour.-->
+<!-- div command groups un order elements/commands together and applies styles from css file. class=myweek names an element and applys the css style which sets the bisque container-->
 
-
-<body id="portfolio-bg">
+    <body id="portfolio-bg">
     <div class="myWeek">
-        
+
+<!-- nav and ul calls the css file style of the buttons so that the unorder list of buttons are centred. the class=link is the style of the white buttons.-->
          <nav>
             <ul>
                 <li class="link"><a href="index.html" ">Homepage</a></li>
@@ -38,7 +40,7 @@
                 <li class="link"><a href="https://github.com/acoops2022/acoops2022.github.io">GitHub</a></li>
             </ul>
         </nav>
-        
+ <!-- h1,h2,h3,p and class=blackbox call the css styles for text and the blackbox week headings-->       
         <h1>Portfolio</h1>
 
         <div class="blackbox">
@@ -50,7 +52,8 @@
         <p>This week's task is to embed charts. This chart looks at the percentage change in the Consumer Price Index (CPI) over a 12 month period. The
         chart uses an API so will remain up to date.</p>
 
-
+<!-- class=chart calls the css file style of chart containers and the id=Chart2 assigns an name for this element that is used to embed vega charts at the bottom of this file-->
+        
         <h3>Inflation per sector</h3>
         <div class="chart" id="Chart2"> </div>
         <p>This chart looks at the percdentage change in prices for each sector of the economy</p>
@@ -119,6 +122,8 @@
         </div>
 
         <h3>UK Trade</h3>
+        
+        <!-- The following command groups the elements and calls the css style chart-grid so that the charts are orderd 3x3 and centred--> 
 
         <div class="chart-grid">
             <div class="column" class="chart" id="Chart9"></div>
@@ -216,7 +221,12 @@
     </div>
 </body>
 
+<!-- the /body marks the end of the page content-->
 
+<!-- script sets instructions for the html page to perform that changes the content of a web page.-->
+<!-- the first instruction defines the charts by setting the varibale to equal json files stored on my github-->
+<!-- the second instruction tells the page to embed the json files defined as myChart as a vegaEmbed using the metadata at the top of the page-->             
+<!-- the last instruction is an if command that changes the background of the site to white if the page width is less 768 pixels--> 
 <script>
     //Define charts:
     var myChart1 = "chart1_Inflation.json";
@@ -269,7 +279,6 @@
     vegaEmbed('#Chart21', myChart21);
     vegaEmbed('#Chart22', myChart22);
     vegaEmbed('#Chart23', myChart23);
-
 
 
     window.addEventListener("resize", changeBg);
