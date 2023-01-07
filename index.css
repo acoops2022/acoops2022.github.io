@@ -129,7 +129,7 @@ nav li {
 
 
 /*  Sets the padding for the Portfolio and Project Container's paragraph 
-    (30px on top and bottom | 20% on left and right) 
+    (30px on top and bottom, 20% on left and right) 
 */
 
 .myWeek p {
@@ -138,7 +138,7 @@ nav li {
 
 
 /*  Sets the margin for the Portfolio and Project Container's Heading 3 
-    (30px on top and bottom | 0 on left and right) 
+    (30px on top and bottom, 0 on left and right) 
 */
 .myWeek h3 {
     margin: 30px 0;
@@ -203,7 +203,7 @@ nav li {
     background-attachment: fixed;
 }
 
-/* Background Image Source */
+/* Background Image Sources */
 
 /* Home Background Image*/
 
