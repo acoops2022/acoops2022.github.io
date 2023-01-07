@@ -3,12 +3,12 @@
   "height": 200,
   "width": 300,
   "title": {
-    "text": "Austerity in the UK?",
+    "text": "Controlling Debt and the Deficit",
     "subtitle": [
-      "Time series of Nominal debt=blue, GDP=orange and debt-to-GDP-ratio=black. Source - ONS"
+      "Time series of nominal debt=blue, GDP=orange,  debt-to-GDP-ratio=black", "budget deficit=red and deficit-GDP ratio=grey.", "Source - ONS"
     ],
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 10,
+    "subtitleFontSize": 12,
     "anchor": "start",
     "color": "black"
   },
@@ -23,7 +23,7 @@
         "y": {
           "field": "GDP_million",
           "type": "quantitative",
-          "axis": {"title": "£ million", "orient": "left"},
+          "axis": {"title": "£ million", "orient": "left","titleColor": "orange"},
           "scale": {"domain": [-25000, 2500000]}
         }
       }
@@ -35,7 +35,7 @@
         "y": {
           "field": "Debt_million",
           "type": "quantitative",
-          "axis": {"title": "£ million", "orient": "left"},
+          "axis": {"title": "£ million", "orient": "left", "titleColor":"blue"},
           "scale": {"domain": [-25000, 2500000]}
         }
       }
@@ -47,7 +47,7 @@
         "y": {
           "field": "deficit",
           "type": "quantitative",
-          "axis": {"title": "£ million", "orient": "left"},
+          "axis": {"title": "£ million", "orient": "left","titleColor": "red"},
           "scale": {"domain": [-25000, 2500000]}
         }
       }
@@ -59,7 +59,7 @@
         "y": {
           "field": "Debt/GDP",
           "type": "quantitative",
-          "axis": {"title": "Debt/GDP ratio", "orient": "right"},
+          "axis": {"title": "Debt & Deficit-GDP ratio", "orient": "right"},
           "scale": {"domain": [-2.5, 250]}
         }
       }
@@ -71,7 +71,7 @@
         "y": {
           "field": "deficit/GDP",
           "type": "quantitative",
-          "axis": {"title": "Debt/GDP ratio", "orient": "right"},
+          "axis": {"title": "Debt & Deficit-GDP ratio", "orient": "right"},
           "scale": {"domain": [-2.5, 250]}
         }
       }
