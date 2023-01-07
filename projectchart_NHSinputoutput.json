@@ -1,7 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "height": 200,
-  "width": 300,
   "title": {
     "text": "Growth of Outputs and Inputs of the NHS",
     "subtitle": [
@@ -42,9 +40,11 @@
               "title": "Growth Rate Output (%)"
             },
             "color": {"field": "Output factor"}
-          }
+          },
+          "height":250,
+          "width":250
         },
-        {"mark": "rule", "encoding": {"y": {"value": 150.5}}},
+        {"mark": "rule", "encoding": {"y": {"value": 156.5}}},
         {
           "mark": {"type": "line", "color": "blue", "opacity": 0.7},
           "encoding": {
@@ -87,9 +87,11 @@
               "scale": {"domain": [-2, 6]}
             },
             "color": {"field": "Input Factor"}
-          }
+          },
+          "height": 250,
+          "width":250
         },
-        {"mark": "rule", "encoding": {"y": {"value": 150.5}}}
+        {"mark": "rule", "encoding": {"y": {"value": 156.5}}}
       ]
     }
   ],
