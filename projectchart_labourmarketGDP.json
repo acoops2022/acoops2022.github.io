@@ -30,10 +30,7 @@
               "axis": {"title": "Employment rate (%)", "titleColor": "green"},
               "scale": {"domain": [50, 100]}
             }
-          },
-          "height": 250,
-          "width": 250
-
+          }
         },
         {
           "layer": [
@@ -55,9 +52,7 @@
                     "titleColor": "navy"
                   }
                 }
-              },
-              "height": 250,
-              "width": 250
+              }
             },
             {
               "mark": {"type": "line", "color": "blue"},
@@ -90,9 +85,7 @@
               "axis": {"title": "Inactivity rate (%)", "titleColor": "red"},
               "scale": {"domain": [0, 50]}
             }
-          },
-          "height": 250,
-          "width": 250
+          }
         },
         {
           "mark": {"type": "line", "color": "purple"},
@@ -107,9 +100,7 @@
               },
               "scale": {"domain": [25000000, 30000000]}
             }
-          },
-          "height": 250,
-          "width": 250
+          }
         }
       ]
     }
